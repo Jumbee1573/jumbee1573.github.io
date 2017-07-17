@@ -55,15 +55,15 @@ body {
   float: right;
   padding: 50px 30px;
 }
-.home__caption_big {
+.header__titles_one {
   padding-top: 330px;
 }
-.home__caption_big p {
-  font: 60px/24px Myriad Pro, sans-serif;
+.header__titles_one {
+  font: 60px/60px Myriad Pro, sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
-.home__caption_small p {
+.header__titles h1 {
   padding-top: 45px;
   font: 26px/20px Myriad Pro, sans-serif;
   color: #fff;
