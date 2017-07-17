@@ -6,15 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fontello.css">
     </head>
     <body>
-      <div id="wrapper">
-        <div id="header">
+      <div class="wrapper">
+        <div class="header">
+          <div class="home">
           <div class="container">
-            <div class="logo">
+            <div class="header__logo">
               <a href="#"><img src="img/logo.png" alt=""></a>
             </div>
-            <ul class="nav">
+            <ul class="header__nav">
               <li><a href="">Home</a></li>
               <li><a href="">Services</a></li>
               <li><a href="">About</a></li>
@@ -23,75 +25,75 @@
               <li><a href="">Clients</a></li>
               <li><a href="">Contact</a></li>
           </ul>
-          </div>
-        </div>
-        <div id="home">
-          <div class="container">
-            <div class="captions">
-              <a href="#"><img src="img/caption.png" alt=""></a>
+            <div class="home__caption_big">
+              <p>Welcome to STARTUP</p>
             </div>
-            <div class="button">
+            <div class="home__caption_small">
+              <p>Your Favourite Creative Agency Template</p>
+            </div>
+            <div class="home__button">
               <buttun class="btn">get started</buttun>
             </div>
           </div>
         </div>
-        <div id="services" class="box">
+        </div>
+        <div class="services box">
           <div class="container">
-            <h2 class="tittle">Services</h2>
-            <p class="descr">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-            <div class="serv-items" >
-                  <div class="item clean">
+            <h2 class="section__title">Services</h2>
+            <div class="descr">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
+            <div class="services__items" >
+                <div class="services__items_clean services__items_item">
                   <h3 class="title">Clean Typography</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere culpa provident dignissimos modi quos autem itaque quasi sed, ipsam consequuntur.</p>
                 </div>
-                <div class="item rock">
+                <div class="services__items_rock services__items_item">
                   <h3 class="title">Rock Solid Code</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere culpa provident dignissimos modi quos autem itaque quasi sed, ipsam consequuntur.</p>
                 </div>
-                <div class="item expert">
+                <div class="services__items_expert services__items_item">
                   <h3 class="title">Expert Support</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere culpa provident dignissimos modi quos autem itaque quasi sed, ipsam consequuntur.</p>
                 </div>
           </div>
         </div>
       </div>
-      <div id="about" class="box">
+      <div class="about box">
         <div class="container">
-          <h2 class="tittle">About Us</h2>
-          <p class="descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-          <div class="about-p">
-            <div class="itemz left-p">
+          <h2 class="section__title">About Us</h2>
+          <div class="descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
+          <div class="about__content">
+            <div class="about__content_left about__content_items">
               <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium adipisci necessitatibus, aperiam possimus nobis harum reprehenderit sint, nostrum debitis! At aperiam quis est quod sunt numquam voluptates. Soluta, error minima. Cum nulla, eaque nihil libero est doloribus expedita, et aliquid quam veritatis commodi voluptatem atque vel.</h5>
             </div>
-            <div class="itemz right-p">
+            <div class="about__content_right about__content_items">
               <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium adipisci necessitatibus, aperiam possimus nobis harum reprehenderit sint, nostrum debitis! At aperiam quis est quod sunt numquam voluptates. Soluta, error minima. Cum nulla, eaque nihil libero est doloribus expedita, et aliquid quam veritatis commodi voluptatem atque vel.</h5>
             </div>
           </div>
-          <div class="portfolio">
-            <div class="portfolio-item">
+          <div class="about__portfolio">
+            <div class="about__portfolio_item">
               <a href=""><img src="img/1port.jpg" alt=""></a>
-              <div class="port-item-footer">
+              <div class="about__portfolio_item_footer">
                 <h3 class="title">Md. Khalil Uddin</h3>
                 <span>Head of Ideas</span>
               </div>
             </div>
-            <div class="portfolio-item">
+            <div class="about__portfolio_item">
               <a href=""><img src="img/2port.jpg" alt=""></a>
-              <div class="port-item-footer">
+              <div class="about__portfolio_item_footer">
                 <h3 class="title">Rubel Miah</h3>
                 <span>Lead WordPress Developer</span>
               </div>
             </div>
-              <div class="portfolio-item">
+              <div class="about__portfolio_item">
               <a href=""><img src="img/3port.jpg" alt=""></a>
-              <div class="port-item-footer">
+              <div class="about__portfolio_item_footer">
                 <h3 class="title">Shamim Mia</h3>
                 <span>Sr. Web Developer</span>
               </div>
             </div>
-            <div class="portfolio-item">
+            <div class="about__portfolio_item">
               <a href=""><img src="img/4port.jpg" alt=""></a>
-              <div class="port-item-footer">
+              <div class="about__portfolio_item_footer">
                 <h3 class="title">John Doe</h3>
                 <span>Front-end Developer</span>
               </div>
@@ -99,150 +101,152 @@
           </div>
         </div>
       </div>
-      <div id="works" class="box">
+      <div class="works box">
         <div class="container">
-          <h2 class="tittle">Latest Works</h2>
-          <ul class="lav">
-            <li class="firstli">All</li>
+          <h2 class="section__title">Latest Works</h2>
+          <ul class="works__nav">
+            <li class="works__nav_firstli">All</li>
             <li>Branding</li>
             <li>Design</li>
             <li>Development</li>
             <li>Strategy</li>
         </ul>
-        <div class="photos">
-          <div class="photo-item">
+        <div class="works__photos">
+          <div class="works__photos_item">
             <a href=""><img src="img/1.jpg" alt=""></a>
           </div>
-          <div class="photo-item">
+          <div class="works__photos_item">
             <a href=""><img src="img/2.jpg" alt=""></a>
           </div>
-          <div class="photo-item">
+          <div class="works__photos_item">
             <a href=""><img src="img/3.jpg" alt=""></a>
             </div>
-          <div class="photo-item">
+          <div class="works__photos_item">
             <a href=""><img src="img/4.jpg" alt=""></a>
           </div>
-          <div class="photo-item">
+          <div class="works__photos_item">
             <a href=""><img src="img/5.jpg" alt=""></a>
             </div>
-          <div class="photo-item">
+          <div class="works__photos_item">
             <a href=""><img src="img/6.jpg" alt=""></a>
           </div>
-          <div class="photo-item">
+          <div class="works__photos_item">
             <a href=""><img src="img/7.jpg" alt=""></a>
           </div>
-          <div class="photo-item">
+          <div class="works__photos_item">
             <a href=""><img src="img/8.jpg" alt=""></a>
           </div>
-          <div class="photo-item last">
+          <div class="works__photos_item">
             <a href=""><img src="img/9.jpg" alt=""></a>
           </div>
         </div>
       </div>
       </div>
-      <div id="call" class="box">
+      <div class="call">
         <div class="container">
-            <h6 class="titlle"> <br>Do you like OUR WORK so far?<br>Let's talk about YOUR PROJECT!</h6>
-            <div class="button">
+            <h6 class="call__title"> <br>Do you like OUR WORK so far?<br>Let's talk about YOUR PROJECT!</h6>
+            <div class="call__button">
               <buttun class="btn">get in touch</buttun>
             </div>
         </div>
       </div>
-      <div id="recent">
+      <div class="recent box">
         <div class="container">
-          <h2 class="tittle">Recent blog posts</h2>
-          <p class="descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-          <div class="ideas">
-            <div class="ideas-photo">
+          <h2 class="section__title">Recent blog posts</h2>
+          <div class="descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
+          <div class="recent__ideas">
+            <div class="recent__ideas_photo">
               <a href=""><img src="img/ideas.jpg" alt=""></a>
             </div>
-            <div class="ideas-inf">
-              <div class="date">
+            <div class="recent__ideas_inf">
+              <div class="recent__ideas_inf_date">
                 <img src="img/date1.png" alt=""></a>
               </div>
-              <div class="zag">
+              <div class="recent__ideas_inf_title">
                 <h4 class="cit">Startup ideas needs to be funded</h4>
                 <span>By <vid>Khalil</vid> Uddin in <vid>Development</vid></span>
               </div>
-              <div class="text">
+              <div class="recent__ideas_inf_text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo mollitia vel illum quas nisi ullam minima quos animi, asperiores ad facere cupiditate consectetur harum molestiae id quo dolorem, ratione doloremque libero, illo reiciendis quia a aut. Amet, quae voluptate consequuntur eius alias, aliquid fuga libero. Molestias error animi perspiciatis aliquid magnam qui, nihil sapiente obcaecati iure laudantium!</p>
               </div>
-              <div class="more">
+              <div class="recent__ideas_inf_more">
                 <a href="">Read more</a>
               </div>
             </div>
           </div>
           <hr>
-          <div class="interface">
-            <div class="ideas-photo">
+          <div class="recent__ideas">
+            <div class="recent__ideas_photo">
               <a href=""><img src="img/interface.jpg" alt=""></a>
             </div>
-            <div class="ideas-inf">
-              <div class="date">
+            <div class="recent__ideas_inf">
+              <div class="recent__ideas_inf_date">
                 <img src="img/date1.png" alt=""></a>
               </div>
-              <div class="zag">
+              <div class="recent__ideas_inf_title">
                 <h4 class="vit">User Interface Designing Elements </h4>
                 <span>By Khalil Uddin in Development</span>
               </div>
-              <div class="text">
+              <div class="recent__ideas_inf_text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo mollitia vel illum quas nisi ullam minima quos animi, asperiores ad facere cupiditate consectetur harum molestiae id quo dolorem, ratione doloremque libero, illo reiciendis quia a aut. Amet, quae voluptate consequuntur eius alias, aliquid fuga libero. Molestias error animi perspiciatis aliquid magnam qui, nihil sapiente obcaecati iure laudantium!</p>
               </div>
-              <div class="more2">
+              <div class="recent__ideas_inf_more">
                 <a href="">Read more</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div id="contacts">
+      <div class="clients">
         <div class="container">
-          <div class="clients">
-            <div class="img">
-              <img src="img/1cont.png" alt=""></a>
-            </div>
-            <div class="img">
-              <img src="img/2cont.png" alt=""></a>
-            </div>
-            <div class="img">
-              <img src="img/3cont.png" alt=""></a>
-            </div>
-            <div class="img">
-              <img src="img/4cont.png" alt=""></a>
-            </div>
-            <div class="img">
-              <img src="img/5cont.png" alt=""></a>
-            </div>
+          <div class="clients__firms">
+            <ul class="clients__firms_nav">
+              <li><img src="img/1cont.png" alt=""></a></li>
+              <li><img src="img/2cont.png" alt=""></a></li>
+              <li><img src="img/3cont.png" alt=""></a></li>
+              <li><img src="img/4cont.png" alt=""></a></li>
+              <li><img src="img/5cont.png" alt=""></a></li>
+            </ul>
           </div>
-          <div class="cit">
-            <p class="cita">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor reppelendus. Temporibus<br>autem quibusdam et aut officiis debitis aut rerum"</p>
-            <p class="chel">John Doe, Google Inc.</p>
+          <div class="clients__quote">
+            <div class="clients__quote_citation">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor reppelendus. Temporibus<br>autem quibusdam et aut officiis debitis aut rerum"</div>
+            <div class="clients__quote_man">John Doe, Google Inc.</div>
             <img src="img/ellipse.png" alt=""></a>
           </div>
         </div>
       </div>
-      <div id="send" class="box">
+      <div class="send box">
         <div class="container">
-          <h2 class="tittle">get in touch</h2>
-          <p class="descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-          <div class="all">
-            <div class="alladr">
-              <div class="address">
-                <img src="img/address.png" alt=""></a>
-                <h2 class="cont">Address</h2>
-                <p class="adr"><br>312, 7th Ave, New York<br>NY 101200, United States of America  </p>
+          <h2 class="section__title">get in touch</h2>
+          <div class="descr">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
+          <div class="send__section">
+            <div class="contacts-list">
+              <div class="contacts-list__item">
+                <div class="contacts-list__item-title">
+                  <h3><i class="icon-location"></i>Address</h3>
+                </div>
+                <div class="contacts-list__item-content">
+                  <p>312, 7th Ave, New York<br>NY 101200, United States of America</p>
+                </div>
               </div>
-              <div class="addres">
-                <img src="img/phone.png" alt=""></a>
-                <h2 class="hotline">Hotline (24x7)</h2>
-                <p class="adr">+65 0052 300, +65 88251 210<br>+88 01723 511 340  </p>
+              <div class="contacts-list__item">
+                <div class="contacts-list__item-title">
+                  <h3><i class="icon-mobile"></i>Hotline (24x7)</h3>
+                </div>
+                <div class="contacts-list__item-content">
+                  <p>+65 0052 300, +65 88251 210<br>+88 01723 511 340</p>
+                </div>
               </div>
-              <div class="addre">
-                <img src="img/mail.png" alt=""></a>
-                <h2 class="email">E-mail</h2>
-                <p class="adr">shapedtheme@gmail.com<br>khalilkode@gmail.com </p>
+              <div class="contacts-list__item">
+                <div class="contacts-list__item-title">
+                  <h3><i class="icon-mail"></i>E-mail</h3>
+                </div>
+                <div class="contacts-list__item-content">
+                  <p>shapedtheme@gmail.com<br>khalilkode@gmail.com</p>
+                </div>
               </div>
             </div>
+
             <div class="message">
               <form action="#" id="messege">
                 <div class="top">
@@ -265,15 +269,15 @@
         </div>
       </div>
     </div>
-    <div id="footer">
-      <div class="container">
-          <div class="social tittle">
+    <div class="footer">
+      <div class="container clearfix">
+          <div class="footer__social section__title">
             <a href="#" class="ic-tw"></a>
             <a href="#" class="ic-tw"></a>
             <a href="#" class="ic-tw"></a>
             <a href="#" class="ic-tw"></a>
           </div>
-          <p class="adr">© 2017 Startup, Developed by Stanislau Verbitsky</p>
+          <div class="footer__inscription">© 2017 Startup, Developed by Stanislau Verbitsky</div>
       </div>
     </div>
   </div>
