@@ -39,15 +39,16 @@ body {
 .box {
   padding: 100px 0;
 }
+
 .home {
   text-align: center;
-  height: 770px;
+  height: auto;
   width: 100%;
-  background: url(../img/bg-image.jpg) no-repeat center center;
+  background: url(../img/bg-image.jpg) no-repeat center bottom;
   background-size: cover;
 }
 .header__logo {
-  padding-top: 40px;
+  margin-top: 40px;
   float: left;
 }
 .header__nav li {
@@ -55,21 +56,25 @@ body {
   float: right;
   padding: 50px 30px;
 }
-.header__titles_one {
-  padding-top: 330px;
+.header__titles{
+
+  margin: auto;
 }
 .header__titles_one {
+  padding-top: 250px;
+  transform: translateY(-20%);
   font: 60px/60px Myriad Pro, sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
 .header__titles h1 {
-  padding-top: 45px;
+  padding-top: -45px;
   font: 26px/20px Myriad Pro, sans-serif;
   color: #fff;
 }
 .home__button {
   margin-top: 50px;
+  padding-bottom: 255px;
 }
 h2.section__title {
   font: 20px/24px Montserrat, sans-serif;
