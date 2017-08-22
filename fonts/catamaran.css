@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran Light'), local('Catamaran-Light'), url('Catamaranlight.woff2') format('woff2'), url('Catamaranlight.woff') format('woff'), url('Catamaranlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran'), local('Catamaran-Regular'), url('Catamaran.woff2') format('woff2'), url('Catamaran.woff') format('woff'), url('Catamaran.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran SemiBold'), local('Catamaran-SemiBold'), url('Catamaransemibold.woff2') format('woff2'), url('Catamaransemibold.woff') format('woff'), url('Catamaransemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran Thin'), local('Catamaran-Thin'), url('Catamaranthin.woff2') format('woff2'), url('Catamaranthin.woff') format('woff'), url('Catamaranthin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran ExtraBold'), local('Catamaran-ExtraBold'), url('Catamaranextrabold.woff2') format('woff2'), url('Catamaranextrabold.woff') format('woff'), url('Catamaranextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran Heavy'), local('Catamaran-Heavy'), url('Catamaranheavy.woff2') format('woff2'), url('Catamaranheavy.woff') format('woff'), url('Catamaranheavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran Medium'), local('Catamaran-Medium'), url('Catamaranmedium.woff2') format('woff2'), url('Catamaranmedium.woff') format('woff'), url('Catamaranmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran ExtraLight'), local('Catamaran-ExtraLight'), url('Catamaranextralight.woff2') format('woff2'), url('Catamaranextralight.woff') format('woff'), url('Catamaranextralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: local('Catamaran Bold'), local('Catamaran-Bold'), url('Catamaranbold.woff2') format('woff2'), url('Catamaranbold.woff') format('woff'), url('Catamaranbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
