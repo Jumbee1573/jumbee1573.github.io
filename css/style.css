@@ -77,6 +77,32 @@ a, a:hover {
   }
 }
 
+@media only screen and (min-device-height : 490px) and (max-device-height : 667px) and (orientation : portrait) {
+  .phone {
+    top: 390px;
+    left: 23px;
+  }
+  .icon {
+    top: 390px;
+    left: 115px;
+  }
+  .words {
+    top: 445px;
+    left: 115px;
+    width: 100%;
+  }
+  .special-words__item_title h3 {
+    font: 20px/25px Catamaran, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .special-words__item_content p {
+    font: 17px/20px Rubik, sans-serif;
+    color: #ffa000;
+    margin-top: 4px;
+  }
+}
+
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
   .phone {
     top: 400px;
