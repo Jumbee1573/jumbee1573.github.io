@@ -77,7 +77,7 @@ a, a:hover {
   }
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+/*@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
   .phone {
     top: 260px;
     left: 23px;
@@ -101,4 +101,4 @@ a, a:hover {
     color: #ffa000;
     margin-top: 4px;
   }
-}
+}*/
