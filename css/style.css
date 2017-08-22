@@ -26,18 +26,18 @@ a, a:hover {
 
 .phone {
   position: absolute;
-  top: 410px;
-  left: 35px;
+  top: 405px;
+  left: 30px;
 }
 .icon {
   position: absolute;
-  top: 410px;
-  left: 180px;
+  top: 405px;
+  left: 175px;
 }
 .words {
   position: absolute;
-  top: 508px;
-  left: 180px;
+  top: 503px;
+  left: 175px;
   width: 100%;
 }
 .special-words__item_title h3 {
