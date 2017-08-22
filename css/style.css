@@ -102,3 +102,29 @@ a, a:hover {
     margin-top: 12px;
   }
 }
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
+  .phone {
+    top: 436px;
+    left: 33px;
+  }
+  .icon {
+    top: 436px;
+    left: 199px;
+  }
+  .words {
+    top: 550px;
+    left: 199px;
+    width: 100%;
+  }
+  .special-words__item_title h3 {
+    font: 37px/42px Catamaran, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .special-words__item_content p {
+    font: 32px/20px Rubik, sans-serif;
+    color: #ffa000;
+    margin-top: 12px;
+  }
+}
