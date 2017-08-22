@@ -79,25 +79,25 @@ a, a:hover {
 
 @media only screen and (min-device-height : 490px) and (max-device-height : 667px) and (orientation : portrait) {
   .phone {
-    top: 390px;
+    top: 350px;
     left: 23px;
   }
   .icon {
-    top: 390px;
-    left: 115px;
+    top: 350px;
+    left: 145px;
   }
   .words {
-    top: 445px;
-    left: 115px;
+    top: 428px;
+    left: 145px;
     width: 100%;
   }
   .special-words__item_title h3 {
-    font: 20px/25px Catamaran, sans-serif;
+    font: 27px/30px Catamaran, sans-serif;
     color: #fff;
     text-transform: uppercase;
   }
   .special-words__item_content p {
-    font: 17px/20px Rubik, sans-serif;
+    font: 23px/20px Rubik, sans-serif;
     color: #ffa000;
     margin-top: 4px;
   }
