@@ -38,10 +38,10 @@ a, a:hover {
   position: absolute;
   top: 500px;
   left: 180px;
-
+  width: 100%;
 }
 .special-words__item_title h3 {
-  font: 30px/35px Catamaran, sans-serif;
+  font: 25px/30px Catamaran, sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
