@@ -36,17 +36,17 @@ a, a:hover {
 }
 .words {
   position: absolute;
-  top: 500px;
+  top: 510px;
   left: 180px;
   width: 100%;
 }
 .special-words__item_title h3 {
-  font: 25px/30px Catamaran, sans-serif;
+  font: 30px/35px Catamaran, sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
 .special-words__item_content p {
   font: 25px/30px Rubik, sans-serif;
   color: #ffa000;
-  margin-top: 13px;
+  margin-top: 8px;
 }
