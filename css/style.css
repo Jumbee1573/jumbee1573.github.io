@@ -26,29 +26,29 @@ a, a:hover {
 
 .phone {
   position: absolute;
-  top: 405px;
-  left: 30px;
+  top: 1100px;
+  left: 75px;
 }
 .icon {
   position: absolute;
-  top: 405px;
-  left: 175px;
+  top: 1100px;
+  left: 500px;
 }
 .words {
   position: absolute;
-  top: 503px;
-  left: 175px;
+  top: 1380px;
+  left: 500px;
   width: 100%;
 }
 .special-words__item_title h3 {
-  font: 30px/35px Catamaran, sans-serif;
+  font: 92px/103px Catamaran, sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
 .special-words__item_content p {
-  font: 25px/30px Rubik, sans-serif;
+  font: 80px/46px Rubik, sans-serif;
   color: #ffa000;
-  margin-top: 8px;
+  margin-top: 50px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
