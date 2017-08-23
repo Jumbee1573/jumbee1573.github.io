@@ -51,6 +51,38 @@ a, a:hover {
   margin-top: 50px;
 }
 
+h3.ru {
+  font: 76px/97px Catamaran, sans-serif;
+}
+p.ru {
+  font: 70px/46px Rubik, sans-serif;
+  margin-top: 40px;
+}
+
+h3.es {
+  font: 89px/103px Catamaran, sans-serif;
+}
+p.es {
+  font: 73px/46px Rubik, sans-serif;
+  margin-top: 40px;
+}
+
+h3.de {
+  font: 90px/100px Catamaran, sans-serif;
+}
+p.de {
+  font: 76px/46px Rubik, sans-serif;
+  margin-top: 40px;
+}
+
+h3.it {
+  font: 88px/103px Catamaran, sans-serif;
+}
+p.it {
+  font: 76px/46px Rubik, sans-serif;
+  margin-top: 40px;
+}
+/*Iphone 4*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
   .phone {
     top: 260px;
@@ -75,8 +107,22 @@ a, a:hover {
     color: #ffa000;
     margin-top: 4px;
   }
+  h3.ru {
+    font: 20px/25px Catamaran, sans-serif;
+  }
+  p.ru {
+    font: 19px/20px Rubik, sans-serif;
+    margin-top: 4px;
+  }
+  h3.es {
+    font: 20px/25px Catamaran, sans-serif;
+  }
+  p.es {
+    font: 17px/20px Rubik, sans-serif;
+    margin-top: 4px;
+  }
 }
-
+/*Iphone 5*/
 @media only screen and (min-device-height : 490px) and (max-device-height : 667px) and (orientation : portrait) {
   .phone {
     top: 350px;
@@ -101,8 +147,29 @@ a, a:hover {
     color: #ffa000;
     margin-top: 4px;
   }
+  h3.ru {
+    font: 24px/29px Catamaran, sans-serif;
+  }
+  p.ru {
+    font: 22px/20px Rubik, sans-serif;
+    margin-top: 7px;
+  }
+  h3.de {
+    font: 27px/30px Catamaran, sans-serif;
+  }
+  p.de {
+    font: 23px/20px Rubik, sans-serif;
+    margin-top: 7px;
+  }
+  h3.ja {
+    font: 26px/32px Catamaran, sans-serif;
+  }
+  p.ja {
+    font: 22px/20px Rubik, sans-serif;
+    margin-top: 7px;
+  }
 }
-
+/*Iphone 6*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
   .phone {
     top: 400px;
@@ -110,11 +177,11 @@ a, a:hover {
   }
   .icon {
     top: 400px;
-    left: 180px;
+    left: 176px;
   }
   .words {
     top: 490px;
-    left: 180px;
+    left: 176px;
     width: 100%;
   }
   .special-words__item_title h3 {
@@ -127,8 +194,36 @@ a, a:hover {
     color: #ffa000;
     margin-top: 12px;
   }
+  h3.ru {
+    font: 27px/37px Catamaran, sans-serif;
+  }
+  p.ru {
+    font: 25px/20px Rubik, sans-serif;
+    margin-top: 11px;
+  }
+  h3.es {
+    font: 33px/40px Catamaran, sans-serif;
+  }
+  p.es {
+    font: 28px/20px Rubik, sans-serif;
+    margin-top: 10px;
+  }
+  h3.fr {
+    font: 33px/37px Catamaran, sans-serif;
+  }
+  p.fr {
+    font: 28px/20px Rubik, sans-serif;
+    margin-top: 12px;
+  }
+  h3.it {
+    font: 33px/38px Catamaran, sans-serif;
+  }
+  p.it {
+    font: 28px/20px Rubik, sans-serif;
+    margin-top: 10px;
+  }
 }
-
+/*Iphone 6+*/
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
   .phone {
     top: 436px;
@@ -153,8 +248,29 @@ a, a:hover {
     color: #ffa000;
     margin-top: 12px;
   }
+  h3.ru {
+    font: 30px/40px Catamaran, sans-serif;
+  }
+  p.ru {
+    font: 26px/20px Rubik, sans-serif;
+    margin-top: 11px;
+  }
+  h3.es {
+    font: 35px/40px Catamaran, sans-serif;
+  }
+  p.es {
+    font: 28px/20px Rubik, sans-serif;
+    margin-top: 11px;
+  }
+  h3.it {
+    font: 36px/42px Catamaran, sans-serif;
+  }
+  p.it {
+    font: 28px/20px Rubik, sans-serif;
+    margin-top: 11px;
+  }
 }
-
+/*Ipad*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   .phone {
     top: 620px;
@@ -178,5 +294,12 @@ a, a:hover {
     font: 40px/40px Rubik, sans-serif;
     color: #ffa000;
     margin-top: 12px;
+  }
+  h3.ru {
+    font: 42px/56px Catamaran, sans-serif;
+  }
+  p.ru {
+    font: 38px/20px Rubik, sans-serif;
+    margin-top: 26px;
   }
 }
