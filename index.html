@@ -1,151 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Вербицкий Станислав - Тестовое задание</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="fonts/catamaran.css">
-
- </head>
+<html>
+   <head>
+      <title>Художник</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/fontello.css">
+   </head>
    <body>
-    <div class="wrap">
-      <div class="wrap__box">
-        <img id='myBg' src="img/bg.png" alt="">
+      <div class="slider">
+         <ul id="slides">
+            <li class="slide showing"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+         </ul>
       </div>
-      <div class="phone">
-        <img id='myPhone' src="img/phone.png" alt="">
+      <div class="wrapper">
+         <div class="header">
+            <div class="home">
+               <div class="container">
+                  <div class="header__section clearfix">
+                     <ul class="header__nav">
+                        <li><a href="">О художнике</a></li>
+                        <li><a href="">Галерея</a></li>
+                        <li><a href="">Контакты</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="icon">
-        <img id='myIcon' src="img/icon.png" alt="">
+      <div class="works box">
+         <div class="container">
+            <h2 class="section__title">Галерея</h2>
+            <div class="works__photos">
+               <div class="works__photos_item">
+                  <div class="ienlarger"><a href="#"><img src="img/art_1_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a1.jpg" alt="large"><br>Заказать</span></a></div>
+                  <div class="ienlarger">
+                     <a href="http://www.google.co.uk/">
+                        <img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb">
+                  </div>
+                  <div class="works__photos_item">
+                  <div class="ienlarger"><a href="#"><img src="img/art_2_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a2.jpg" alt="large"><br>Заказать</span></a></div>
+                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb"> </div>
+                  <div class="works__photos_item">
+                  <div class="ienlarger"><a href="#"><img src="img/art_3_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a3.jpg" alt="large"><br>Заказать</span></a></div>
+                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb" >
+                  </div>
+                  <div class="works__photos_item">
+                  <div class="ienlarger"><a href="#"><img src="img/art_4_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a4.jpg" alt="large"><br>Заказать</span></a></div>
+                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb" >
+                  </div>
+                  <div class="works__photos_item">
+                  <div class="ienlarger"><a href="#"><img src="img/art_5_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a5.jpg" alt="large"><br>Заказать</span></a></div>
+                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb" >
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="words">
-        <div class="special-words">
-          <div class="special-words__item_title">
-            <h3 data-lang="msgTitle">
-              keep Private<br> Photos & Videos<br> Secure
-            </h3>
-          </div>
-          <div class="special-words__item_content">
-            <p data-lang="msgHeadMessage">
-              7 Day Free Trial
-            </p>
-          </div>
-        </div>
+      <div class="send">
+      <div class="container">
+      <h2 class="section__title">контакты</h2>
+      <div class="send__section">
+      <div class="contacts-list">
+      <div class="contacts-list__item">
+      <div class="contacts-list__item-title">
+      <h3><i class="icon-location"></i>Адрес</h3>
       </div>
-    </div>
-    <script>
-    // 4
-      var img=document.getElementById("myBg");
-      if (screen.width < '375'){
-      img.src="img/bg4.png"; }
-      var img=document.getElementById("myPhone");
-      if (screen.width < '375'){
-      img.src="img/phone4.png"; }
-      var img=document.getElementById("myIcon");
-      if (screen.width < '375'){
-      img.src="img/icon4.png"; }
-    // 5
-      var img=document.getElementById("myBg");
-      if (screen.width < '375' && screen.height > '480' && screen.height < '667'){
-      img.src="img/bg5.png"; }
-      var img=document.getElementById("myPhone");
-      if (screen.width < '375' && screen.height > '480' && screen.height < '667'){
-      img.src="img/phone5.png"; }
-      var img=document.getElementById("myIcon");
-      if (screen.width < '375' && screen.height > '480' && screen.height < '667'){
-      img.src="img/icon5.png"; }
-    // 6
-      var img=document.getElementById("myBg");
-      if (screen.width >= '375' && screen.width <= '414'){
-      img.src="img/bg6.png"; }
-      var img=document.getElementById("myPhone");
-      if (screen.width >= '375' && screen.width <= '414'){
-      img.src="img/phone6.png"; }
-      var img=document.getElementById("myIcon");
-      if (screen.width >= '375' && screen.width <= '414'){
-      img.src="img/icon6.png"; }
-    // 6+
-      var img=document.getElementById("myBg");
-      if (screen.width >= '414' && screen.width <= '768'){
-      img.src="img/bg6+.png"; }
-      var img=document.getElementById("myPhone");
-      if (screen.width >= '414' && screen.width <= '768'){
-      img.src="img/phone6+.png"; }
-      var img=document.getElementById("myIcon");
-      if (screen.width >= '414' && screen.width <= '768'){
-      img.src="img/icon6+.png"; }
-      // ipad
-      var img=document.getElementById("myBg");
-      if (screen.width >= '768' && screen.width <= '1024'){
-      img.src="img/bg-ipad.png"; }
-      var img=document.getElementById("myPhone");
-      if (screen.width >= '768' && screen.width <= '1024'){
-      img.src="img/phone-ipad.png"; }
-      var img=document.getElementById("myIcon");
-      if (screen.width >= '768' && screen.width <= '1024'){
-      img.src="img/icon-ipad.png"; }
-
-      var params = window
-          .location
-          .search
-          .replace('?','')
-          .split('&')
-          .reduce(
-              function(p,e){
-                  var a = e.split('=');
-                  p[ decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
-                  return p;
-              },
-              {}
-          );
-
-      // console.log( params['lang']);
-
-      const langs = {
-	"ru": {
-  	"msgTitle": "Держите Личные <br> Фото и Видео под <br> Надежной Защитой",
-    "msgHeadMessage": "7-дневная пробная версия",
-  },
-  "en": {
-  	"msgTitle": "Keep Your Private <br> Photos & Videos <br> Secure",
-    "msgHeadMessage": "7-Day Free Trial"
-  },
-  "es": {
-  	"msgTitle": "Mantén Seguras <br> Tus Fotos y Vídeos <br> Privados",
-    "msgHeadMessage": "Prueba gratuita de 7 días"
-  },
-  "de": {
-  	"msgTitle": "Halten Sie Ihre <br> privaten Fotos & <br> Videos geheim",
-    "msgHeadMessage": "7-tägige Gratis-Version"
-  },
-  "fr": {
-  	"msgTitle": "Protégez Vos <br> Photos et Vidéos <br> Privées",
-    "msgHeadMessage": "7 jours d'essai gratuit"
-  },
-  "ja": {
-  	"msgTitle": "プライベート写真と <br> 動画を安全に <br> 保つ",
-    "msgHeadMessage": "7日間無料トライアル"
-  },
-  "it": {
-  	"msgTitle": "Tieni al Sicuro <br> i Tuoi Video e Foto <br> Private",
-    "msgHeadMessage": "Prova gratuita di 7 giorni"
-  }
-}
-
-let messagesTags = document.querySelectorAll("*[data-lang]");
-if (!params['lang']) {
-  var lang = 'en';
-}
-else {
-  var lang = params['lang'];
-}
-
-for (let i = 0; i < messagesTags.length; i++) {
-	let messId = messagesTags[i].getAttribute('data-lang');
-  messagesTags[i].innerHTML = langs[lang][messId];
-  messagesTags[i].classList.add(lang);
-}
-    </script>
+      <div class="contacts-list__item-content">
+      <p>Минск</p>
+      </div>
+      </div>
+      <div class="contacts-list__item">
+      <div class="contacts-list__item-title">
+      <h3><i class="icon-mobile"></i>Телефон (24x7)</h3>
+      </div>
+      <div class="contacts-list__item-content">
+      <p>+65 0052 300, +65 88251 210<br>+88 01723 511 340</p>
+      </div>
+      </div>
+      <div class="contacts-list__item">
+      <div class="contacts-list__item-title">
+      <h3><i class="icon-mail"></i>E-mail</h3>
+      </div>
+      <div class="contacts-list__item-content">
+      <p>shapedtheme@gmail.com<br>khalilkode@gmail.com</p>
+      </div>
+      </div>
+      </div>
+      <div class="message">
+      <form action="#" id="messege">
+      <div class="top">
+      <input type="text" placeholder="your Name *"/>
+      <input type="text" placeholder="your e-mail *"/>
+      </div>
+      <div class="top">
+      <input type="text" placeholder="subject"/>
+      <input type="text" placeholder="company name *"/>
+      </div>
+      <div class="bottom">
+      <textarea rows="0" placeholder="Write your message *" cols="0"></textarea>
+      </form>
+      <div class="bottom2">
+      <buttun class="btn">Send message</buttun>
+      <p class="adr">* We’ll contact you as as possible. We don’t reply on Monday.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="about box">
+      <div class="container">
+      <h2 class="section__title">о художнике</h2>
+      <div class="about__portfolio">
+      <div class="about__portfolio_item">
+      <div class="section-1">
+      <a href=""><img src="img/1port.jpg" alt=""></a>
+      <div class="about__portfolio_item_footer">
+      <h3 class="title">Иван Мелех</h3>
+      <span>Меня зовут Иван, и я белорусский художник из г.Минска. <br>На веб-сайте ByArt Вы сможете увидеть мир моими глазами. Я пишу картины завораживающего и могущественного океана. С моими картинами Вы прикасаетесь к воде, слышите крик чаек и вдыхаете полной грудью запах морской волны.
+      Мне важно, чтобы люди, которые приносят мои картины в свой дом, мысленно переносились на берег океана, чувствовали его спокойствие и в то же время мощь! Я хочу, чтобы каждый покупатель приобретал не просто полотно, а чувства!
+      Я люблю своё дело, поэтому вкладываю в работы свою душу. <br>Приобретайте кусочек океана в свой дом - и он останется с Вами на долгие годы!</span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="footer">
+         <div class="container clearfix">
+            <div class="footer__social section__title">
+               <a href="#" class="ic-tw"></a>
+               <a href="#" class="ic-tw"></a>
+               <a href="#" class="ic-tw"></a>
+               <a href="#" class="ic-tw"></a>
+            </div>
+            <div class="footer__inscription">© 2017</div>
+         </div>
+      </div>
+      </div>
+      <script  src="js/script.js"> </script>
    </body>
 </html>

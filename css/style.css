@@ -1,305 +1,578 @@
-ol, ul { list-style: none;}
 * {
-  margin: 0;
-  padding: 0;
-  outline: none;
   box-sizing: border-box;
 }
-
-a, a:hover {
-  text-decoration: none;
+/**/
+.slider{
+	position:absolute;
+	top: 730px;
+	left: 570px;
+	width:50%;
+  margin: -600px 80px 0px -1px;
+  float: right;
+}
+#slides{
+    position: absolute;
+    z-index: 2;
+    height: 508px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
 }
 
-.clearfix: before;
-.clearfix: after {
-  content: * *;
-  display: table;
-}
-
-.clearfix: after {clear: both;}
-
-.left {float: left;}
-.right {float: right;}
-.text-right {
-  text-align: right;
-}
-
-.phone {
+.slide{
   position: absolute;
-  top: 1100px;
-  left: 75px;
+left: -148px;
+top: 62px;
+width: 878px;
+height: 595px;
+opacity: 0;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 }
-.icon {
-  position: absolute;
-  top: 1100px;
-  left: 500px;
+
+.showing{
+    opacity: 1;
+    z-index: 2;
 }
-.words {
-  position: absolute;
-  top: 1380px;
-  left: 500px;
-  width: 100%;
+
+.slide{
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
 }
-.special-words__item_title h3 {
-  font: 92px/103px Catamaran, sans-serif;
+
+.slide:nth-of-type(1){
+    background: url(../img/a1.jpg) no-repeat ;
+}
+.slide:nth-of-type(2){
+    background: url(../img/a2.jpg) no-repeat ;
+}
+.slide:nth-of-type(3){
+    background: url(../img/a3.jpg) no-repeat ;
+}
+.slide:nth-of-type(4){
+    background: url(../img/a4.jpg) no-repeat ;
+}
+.slide:nth-of-type(5){
+    background: url(../img/a5.jpg) no-repeat ;
+}
+/**/
+body {
+  margin: 0;
+  background-color: #fff;
+  font-size: 14/18px 'Arial' , Arial, sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+
+}
+.clearfix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+}
+.btn {
+  display: inline-block;
+  padding: 17px 30px;
+  font:16px/16px Arial, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
   color: #fff;
+  transition: top 1s ease-out 0.5s;
+
+  border: 2px solid;
+}
+.btn:hover {
+  color: #787f9f;
+  transition: 1s ease-out 0.3s;
+}
+.box {
+  padding: 100px 0;
+}
+
+.home {
+  position: relative;
+  z-index: 3;
+  height: 100vh;
+  right: 0;
+  left: 0;
+  text-align: center;
+  min-height: 800px;
+  width: 100%;
+  background: url(../img/bg-image.png) no-repeat ;
+  background-size: cover;
+}
+.header__logo a img {
+  margin-top: 20px;
+  float: left;
+  height: 100px;
+  width: 200px;
+}
+.header__nav {
+  margin-left: 230px;
+  position: relative;
+  z-index: 10000;
+}
+.header__nav li a {
+  text-transform: uppercase;
+  display: block;
+  float: left;
+  padding: 50px 30px;
+  font: 20px/20px Arial, sans-serif;
+
+}
+.header__titles{
+  vertical-align: middle;
+}
+.header__titles_one {
+  position: absolute;
+  left: 80px;
+  top: 200px;
+  width: 300px;
+  transform: translateY(-20%);
+  font: 18px/20px Arial, sans-serif;
+  color: #fff;
+}
+.home__button {
+  margin-top: 50px;
+  padding-bottom: 255px;
+}
+h2.section__title {
+  font: 20px/24px Montserrat, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #555;
+}
+.section__title:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 50px;
+  margin: 0 auto;
+  background: #555;
+  margin-top: 30px;
+}
+.p {
+  font: 14px/24px RobotoSlab, sans-serif;
+}
+.descr {
+  font: 16px/24px RobotoSlab, sans-serif;
+  text-align: center;
+  color: #555;
+  padding-top: 30px;
+}
+.services {
+  padding: 100px 0;
+  min-height: 650px;
+}
+.services__items_item {
+  line-height: 16px;
+  float: left;
+  padding: 120px 18px 0;
+  width: 30%;
+  text-align: center;
+  height: 128px;
+}
+.title {
+  font: 14px/24px Montserrat, sans-serif;
   text-transform: uppercase;
 }
-.special-words__item_content p {
-  font: 80px/46px Rubik, sans-serif;
-  color: #ffa000;
-  margin-top: 50px;
+.services__items {
+  margin-left: 300px;
+  margin-top: 70px;
+}
+.services__items p {
+  font: 14px/20px RobotoSlab, sans-serif;
+  padding-top: 25px;
+}
+.services__items_clean {
+  background: url(../img/3.jpg) no-repeat center top;
+}
+.services__items_rock {
+  background: url(../img/1.jpg) no-repeat center top;
+}
+.about {
+  background-color: #f8f8f8;
+}
+.about__content {
+  padding-bottom: 77px;
+  margin-bottom: 100px;
+}
+.about__content_items {
+  line-height: 16px;
+  padding: 88px 0 0;
+  width: 50%;
+  text-align: left;
+}
+span {
+  font: 15px/24px RobotoSlab, sans-serif;
+}
+.about__portfolio_item {
+  float: left;
+  width: 100%;
+  text-align: inherit;
+  padding-top: 70px;
+}
+.section-1 a img{
+float: left;
+padding:  10px;
+border-radius: 50%;
+}
+h3.title {
+  padding: 10px 0;
+}
+.works__nav li {
+  display: inline-block;
+  padding: 35px 28px;
+  text-align: center;
+}
+.works__nav_firstli {
+  color: #c0301c;
+}
+.works__nav {
+  text-align: center;
+}
+.works__photos {
+  margin-top: 35px;
+}
+.works__photos_item a img {
+  width: 1160px;
+  margin-bottom: 10px;
+}
+.works__photos_item:nth-child(3n+3) {
+  margin-right: 0;
+}
+/**/
+.ienlarger {
+  float: left;
+  clear: none; /* Можно установить left или right по необходимости */
+  padding-bottom: 5px; /* Расстояние между миниатюрами. Лучше не трогать данное поле */
+  padding-right: 5px; /* Расстояние между миниатюрами и окружающим текстом */
 }
 
-h3.ru {
-  font: 76px/97px Catamaran, sans-serif;
+.ienlarger a {
+  display:block;
+  text-decoration: none;
+/* Если добавить правило cursor:default;, то отключится курсор в виде руки */
 }
-p.ru {
-  font: 70px/46px Rubik, sans-serif;
-  margin-top: 40px;
+.ienlarger a:hover{ /* Не надо изменять тип позиционирования */
+  position:relative;
+  transition: 3s;
+}
+.ienlarger span img {
+  border: 1px solid #FFFFFF; /* Добавляем рамку вокруг изображения */
+  margin-bottom: 8px; /* /Сдвигаем текст вниз от изображения */
+}
+.ienlarger a span {  /* Для большого изображения и названия */
+  position: absolute;
+  display:none;
+  color: #FFCC00; /* Текст названия */
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px; /* Размер шрифта названия */
+  background-color: #000000;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+}
+.ienlarger img { /* Для IE, чтобы не было рамки вокруг ссылки */
+	border-width: 0;
 }
 
-h3.es {
-  font: 89px/103px Catamaran, sans-serif;
+.ienlarger a:hover span {
+  display:block;
+  top: 50px; /* Большое изображение выскакивает вверх на 50px от миниатюры */
+  left: 90px; /* Большое изображение выскакивает влево на 90px от миниатюры */
+  z-index: 100;
+/* Если добавить правило cursor:default;, то отключится курсор в виде руки на большом изображении */
 }
-p.es {
-  font: 73px/46px Rubik, sans-serif;
-  margin-top: 40px;
+.resize_thumb {
+  width: 150px; /* Вводим нужный размер миниатюры здесь */
+  height : auto;
+}
+/**/
+.recent__ideas {
+  padding-top: 73px;
+  display: inline-block;
+  margin-bottom: 38px;
+}
+.recent__ideas:last-child{
+  margin: 0;
+}
+.recent__ideas_photo {
+  float: left;
+  width: 460px;
+  margin-right: 30px;
+}
+.recent__ideas_inf {
+  display: inline;
+  float: right;
+  width: 650px;
+}
+.recent__ideas_inf_date {
+  width: 95px;
+  float: left;
+}
+.recent__ideas_inf_title {
+  padding: 15px 0 20px;
+  float: left;
+  margin-bottom: 27px;
+}
+h4.cit {
+  font: 16px/24px Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #c0301c;
+}
+.recent__ideas_inf_text {
+  float: left;
+}
+.recent__ideas_inf_more {
+  padding-top: 37px;
+  float: left;
+}
+.recent__ideas_inf_more a {
+  font: bold 13px/24px RobotoSlab, sans-serif;
+  text-transform: uppercase;
+  color: #c0301c;
+}
+h4.vit {
+  font: 16px/24px Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #555;
+}
+.contacts-list{
+  float: left;
+  width: 300px;
 }
 
-h3.de {
-  font: 90px/100px Catamaran, sans-serif;
+.contacts-list__item{
+  margin: 0 0 30px 0;
 }
-p.de {
-  font: 76px/46px Rubik, sans-serif;
-  margin-top: 40px;
+.contacts-list__item:first-child {
+  padding-top: 75px;
 }
 
-h3.it {
-  font: 88px/103px Catamaran, sans-serif;
+.contacts-list__item-title{
+  position: relative;
+  padding: 0 0 0 30px;
 }
-p.it {
-  font: 76px/46px Rubik, sans-serif;
-  margin-top: 40px;
+i.icon-location {
+  padding: 0;
+  width: 15px;
+  height: 20px;
+  display: block;
+  left: -2.5px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-70%);
 }
-/*Iphone 4*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
-  .phone {
-    top: 260px;
-    left: 23px;
-  }
-  .icon {
-    top: 260px;
-    left: 115px;
-  }
-  .words {
-    top: 317px;
-    left: 115px;
-    width: 100%;
-  }
-  .special-words__item_title h3 {
-    font: 20px/25px Catamaran, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .special-words__item_content p {
-    font: 17px/20px Rubik, sans-serif;
-    color: #ffa000;
-    margin-top: 4px;
-  }
-  h3.ru {
-    font: 20px/25px Catamaran, sans-serif;
-  }
-  p.ru {
-    font: 19px/20px Rubik, sans-serif;
-    margin-top: 4px;
-  }
-  h3.es {
-    font: 20px/25px Catamaran, sans-serif;
-  }
-  p.es {
-    font: 17px/20px Rubik, sans-serif;
-    margin-top: 4px;
-  }
+i.icon-mobile {
+  padding: 0;
+  width: 15px;
+  height: 20px;
+  display: block;
+  left: -2.5px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-70%);
 }
-/*Iphone 5*/
-@media only screen and (min-device-height : 490px) and (max-device-height : 667px) and (orientation : portrait) {
-  .phone {
-    top: 350px;
-    left: 23px;
-  }
-  .icon {
-    top: 350px;
-    left: 145px;
-  }
-  .words {
-    top: 428px;
-    left: 145px;
-    width: 100%;
-  }
-  .special-words__item_title h3 {
-    font: 27px/30px Catamaran, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .special-words__item_content p {
-    font: 23px/20px Rubik, sans-serif;
-    color: #ffa000;
-    margin-top: 4px;
-  }
-  h3.ru {
-    font: 24px/29px Catamaran, sans-serif;
-  }
-  p.ru {
-    font: 22px/20px Rubik, sans-serif;
-    margin-top: 7px;
-  }
-  h3.de {
-    font: 27px/30px Catamaran, sans-serif;
-  }
-  p.de {
-    font: 23px/20px Rubik, sans-serif;
-    margin-top: 7px;
-  }
-  h3.ja {
-    font: 26px/32px Catamaran, sans-serif;
-  }
-  p.ja {
-    font: 22px/20px Rubik, sans-serif;
-    margin-top: 7px;
-  }
+i.icon-mail {
+  padding: 0;
+  width: 15px;
+  height: 20px;
+  display: block;
+  left: -2.5px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-70%);
 }
-/*Iphone 6*/
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
-  .phone {
-    top: 400px;
-    left: 33px;
-  }
-  .icon {
-    top: 400px;
-    left: 176px;
-  }
-  .words {
-    top: 490px;
-    left: 176px;
-    width: 100%;
-  }
-  .special-words__item_title h3 {
-    font: 33px/35px Catamaran, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .special-words__item_content p {
-    font: 28px/20px Rubik, sans-serif;
-    color: #ffa000;
-    margin-top: 12px;
-  }
-  h3.ru {
-    font: 27px/37px Catamaran, sans-serif;
-  }
-  p.ru {
-    font: 25px/20px Rubik, sans-serif;
-    margin-top: 11px;
-  }
-  h3.es {
-    font: 33px/40px Catamaran, sans-serif;
-  }
-  p.es {
-    font: 28px/20px Rubik, sans-serif;
-    margin-top: 10px;
-  }
-  h3.fr {
-    font: 33px/37px Catamaran, sans-serif;
-  }
-  p.fr {
-    font: 28px/20px Rubik, sans-serif;
-    margin-top: 12px;
-  }
-  h3.it {
-    font: 33px/38px Catamaran, sans-serif;
-  }
-  p.it {
-    font: 28px/20px Rubik, sans-serif;
-    margin-top: 10px;
-  }
+.contacts-list__item-content{
+     padding: 0 0 0 30px;
 }
-/*Iphone 6+*/
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) {
-  .phone {
-    top: 436px;
-    left: 33px;
-  }
-  .icon {
-    top: 436px;
-    left: 199px;
-  }
-  .words {
-    top: 550px;
-    left: 199px;
-    width: 100%;
-  }
-  .special-words__item_title h3 {
-    font: 37px/42px Catamaran, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .special-words__item_content p {
-    font: 32px/20px Rubik, sans-serif;
-    color: #ffa000;
-    margin-top: 12px;
-  }
-  h3.ru {
-    font: 30px/40px Catamaran, sans-serif;
-  }
-  p.ru {
-    font: 26px/20px Rubik, sans-serif;
-    margin-top: 11px;
-  }
-  h3.es {
-    font: 35px/40px Catamaran, sans-serif;
-  }
-  p.es {
-    font: 28px/20px Rubik, sans-serif;
-    margin-top: 11px;
-  }
-  h3.it {
-    font: 36px/42px Catamaran, sans-serif;
-  }
-  p.it {
-    font: 28px/20px Rubik, sans-serif;
-    margin-top: 11px;
-  }
+
+.contacts-list__item-title h3{
+  margin: 0;
+  font: bold 14px/30px Montserrat, sans-serif;
+  text-transform: uppercase;
 }
-/*Ipad*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  .phone {
-    top: 620px;
-    left: 50px;
-  }
-  .icon {
-    top: 620px;
-    left: 275px;
-  }
-  .words {
-    top: 770px;
-    left: 275px;
-    width: 100%;
-  }
-  .special-words__item_title h3 {
-    font: 50px/55px Catamaran, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-  }
-  .special-words__item_content p {
-    font: 40px/40px Rubik, sans-serif;
-    color: #ffa000;
-    margin-top: 12px;
-  }
-  h3.ru {
-    font: 42px/56px Catamaran, sans-serif;
-  }
-  p.ru {
-    font: 38px/20px Rubik, sans-serif;
-    margin-top: 26px;
-  }
+
+.contacts-list__item-content p{
+  font: 12px/20px RobotoSlab, sans-serif;
+  color: #555;
+}
+
+
+
+.send__section {
+  display: inline-block;
+}
+.send__section_all {
+  float: left;
+  height: 300px;
+  width: 395px;
+}
+.send__section_all_inform {
+  display: block;
+  float: left;
+  width: 395px;
+  height: 100px;
+}
+h2.content {
+  padding-right: 300px;
+  float: right;
+  font: bold 14px/30px Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+.address {
+  padding-left: 25px;
+  font: 12px/20px RobotoSlab, sans-serif;
+  color: #555;
+}
+.addres {
+  display: block;
+  float: left;
+  width: 395px;
+  height: 90px;
+}
+.addre {
+  display: block;
+  float: left;
+  width: 395px;
+  height: 100px;
+}
+h2.hotline {
+  padding-right: 264px;
+  float: right;
+  font: bold 14px/30px Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+h2.email {
+  padding-right: 318px;
+  float: right;
+  font: bold 14px/30px Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+.addres img {
+  padding-top: 5px;
+}
+.addre img {
+  padding-top: 5px;
+}
+.message {
+  margin-top: 75px;
+  width: 745px;
+  display: inline;
+  float: right;
+}
+.top input, textarea {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 313px;
+  height: 23px;
+  text-transform: uppercase;
+}
+.top input:last-child {
+  margin-right: 0;
+}
+.messege input[type="text"],
+.messege textarea {
+  border-color: #555;
+  border: 2px solid;
+  font: 12px/20px RobotoSlab, sans-serif;
+  color: #222;
+  padding: 15px;
+  box-shadow: none;
+}
+textarea {
+  width: 695px;
+  height: 83px;
+}
+.bottom2 {
+  width: 100%;
+  height: 50px;
+}
+.bottom2 buttun {
+  color: #555;
+  border-color: #555;
+}
+.bottom2 buttun:hover {
+  border-color: #0f0;
+}
+.bottom2 p {
+  float: right;
+  padding: 17px 190px 0 0;
+}
+.footer {
+  text-align: center;
+  padding-top: 100px;
+  height: 224px;
+  width: 100%;
+  background-color: #238aa9;
+}
+.footer .section__title:after {
+  background: #fff;
+}
+.footer p {
+  padding: 30px 0;
+  color: #fff;
+}
+.footer__social a {
+  margin-right: 14px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background: url(../img/social-sprite.png) no-repeat;
+}
+.footer__social a.ic-tw {
+  background-position: 0 0;
+}
+.footer__social a.ic-tw:hover{
+  background-color: #fff;
+  background-position: 0 -30px;
+}
+.footer__social a.ic-tw {
+  background-position: -30px 0;
+}
+.footer__social a.ic-tw:hover {
+  background-color: #fff;
+  background-position: -30px -30px;
+}
+.footer__social a.ic-tw {
+  background-position: -60px 0;
+}
+.footer__social a.ic-tw:hover {
+  background-color: #fff;
+  background-position: -60px -30px;
+}
+.footer__social a.ic-tw {
+  background-position: -90px 0;
+}
+.footer__social a.ic-tw:hover {
+  background-color: #fff;
+  background-position: -90px -30px;
+}
+.footer__inscription {
+  font: 12px/20px RobotoSlab, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 30px;
 }
