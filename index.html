@@ -1,155 +1,240 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Художник</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/fontello.css">
-   </head>
-   <body>
-      <div class="slider">
-         <ul id="slides">
-            <li class="slide showing"></li>
-            <li class="slide"></li>
-            <li class="slide"></li>
-            <li class="slide"></li>
-            <li class="slide"></li>
-         </ul>
-      </div>
-      <div class="wrapper">
-         <div class="header">
-            <div class="home">
-               <div class="container">
-                  <div class="header__section clearfix">
-                     <ul class="header__nav">
-                        <li><a href="">О художнике</a></li>
-                        <li><a href="">Галерея</a></li>
-                        <li><a href="">Контакты</a></li>
-                     </ul>
-                  </div>
-               </div>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="7WNhhBBpJ5g2Vfpv9I2qBId49BoXQsWkef0RSCSV">
+
+    <title>MITSIN@DEV</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="MITSIN@DEV">
+    <meta name="application-name" content="MITSIN@DEV">
+    <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {"csrfToken":"7WNhhBBpJ5g2Vfpv9I2qBId49BoXQsWkef0RSCSV"};
+    </script>
+</head>
+<body>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-93606104-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <header id="header" class="header">
+        <article class="container">
+            <h1 class="header__title">
+                Сайты, которые вдохновляют
+            </h1>
+            <p class="header__text">
+                Мы предлагаем разработку сайта для Вашего бизнеса. Следуя Вашим пожеланиям мы делаем сайты, которые работают на Вас
+            </p>
+        </article>
+        <img src="img/sites.png" alt="sites" class="header__sites">
+    </header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar__brand" href="/" title="logo" itemprop="logo" itemscope itemtype="http://schema.org/Organization"></a>
             </div>
-         </div>
-      </div>
-      <div class="works box">
-         <div class="container">
-            <h2 class="section__title">Галерея</h2>
-            <div class="works__photos">
-               <div class="works__photos_item">
-                  <div class="ienlarger"><a href="#"><img src="img/art_1_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a1.jpg" alt="large"><br>Заказать</span></a></div>
-                  <div class="ienlarger">
-                     <a href="http://www.google.co.uk/">
-                        <img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb">
-                  </div>
-                  <div class="works__photos_item">
-                  <div class="ienlarger"><a href="#"><img src="img/art_2_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a2.jpg" alt="large"><br>Заказать</span></a></div>
-                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb"> </div>
-                  <div class="works__photos_item">
-                  <div class="ienlarger"><a href="#"><img src="img/art_3_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a3.jpg" alt="large"><br>Заказать</span></a></div>
-                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb" >
-                  </div>
-                  <div class="works__photos_item">
-                  <div class="ienlarger"><a href="#"><img src="img/art_4_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a4.jpg" alt="large"><br>Заказать</span></a></div>
-                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb" >
-                  </div>
-                  <div class="works__photos_item">
-                  <div class="ienlarger"><a href="#"><img src="img/art_5_mini.png" alt="thumb" class="resize_thumb"><span> <img src="img/a5.jpg" alt="large"><br>Заказать</span></a></div>
-                  <div class="ienlarger"><a href="http://www.google.co.uk/"><img src="http://img257.imageshack.us/img257/1926/92628379.jpg" alt="thumb" class="resize_thumb" >
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-               </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="navbar__item"><a href="#header">Главная</a></li>
+                    <li class="navbar__item"><a href="#magic">Магия</a></li>
+                    <li class="navbar__item"><a href="#features">Особенности</a></li>
+                    <li class="navbar__item"><a href="#portfolio">Портфолио</a></li>
+                    <li class="navbar__item"><a href="#reviews">Отзывы</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="navbar__item"><a href="/setlocale/by">BEL</a></li>
+                    <li class="navbar__item"><a href="/setlocale/en">ENG</a></li>
+                    <li class="navbar__item"><a href="/setlocale/ru">RUS</a></li>
+                </ul>
             </div>
-         </div>
-      </div>
-      <div class="send">
-      <div class="container">
-      <h2 class="section__title">контакты</h2>
-      <div class="send__section">
-      <div class="contacts-list">
-      <div class="contacts-list__item">
-      <div class="contacts-list__item-title">
-      <h3><i class="icon-location"></i>Адрес</h3>
-      </div>
-      <div class="contacts-list__item-content">
-      <p>Минск</p>
-      </div>
-      </div>
-      <div class="contacts-list__item">
-      <div class="contacts-list__item-title">
-      <h3><i class="icon-mobile"></i>Телефон (24x7)</h3>
-      </div>
-      <div class="contacts-list__item-content">
-      <p>+65 0052 300, +65 88251 210<br>+88 01723 511 340</p>
-      </div>
-      </div>
-      <div class="contacts-list__item">
-      <div class="contacts-list__item-title">
-      <h3><i class="icon-mail"></i>E-mail</h3>
-      </div>
-      <div class="contacts-list__item-content">
-      <p>shapedtheme@gmail.com<br>khalilkode@gmail.com</p>
-      </div>
-      </div>
-      </div>
-      <div class="message">
-      <form action="#" id="messege">
-      <div class="top">
-      <input type="text" placeholder="your Name *"/>
-      <input type="text" placeholder="your e-mail *"/>
-      </div>
-      <div class="top">
-      <input type="text" placeholder="subject"/>
-      <input type="text" placeholder="company name *"/>
-      </div>
-      <div class="bottom">
-      <textarea rows="0" placeholder="Write your message *" cols="0"></textarea>
-      </form>
-      <div class="bottom2">
-      <buttun class="btn">Send message</buttun>
-      <p class="adr">* We’ll contact you as as possible. We don’t reply on Monday.</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="about box">
-      <div class="container">
-      <h2 class="section__title">о художнике</h2>
-      <div class="about__portfolio">
-      <div class="about__portfolio_item">
-      <div class="section-1">
-      <a href=""><img src="img/1port.jpg" alt=""></a>
-      <div class="about__portfolio_item_footer">
-      <h3 class="title">Иван Мелех</h3>
-      <span>Меня зовут Иван, и я белорусский художник из г.Минска. <br>На веб-сайте ByArt Вы сможете увидеть мир моими глазами. Я пишу картины завораживающего и могущественного океана. С моими картинами Вы прикасаетесь к воде, слышите крик чаек и вдыхаете полной грудью запах морской волны.
-      Мне важно, чтобы люди, которые приносят мои картины в свой дом, мысленно переносились на берег океана, чувствовали его спокойствие и в то же время мощь! Я хочу, чтобы каждый покупатель приобретал не просто полотно, а чувства!
-      Я люблю своё дело, поэтому вкладываю в работы свою душу. <br>Приобретайте кусочек океана в свой дом - и он останется с Вами на долгие годы!</span>
-      </span>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="footer">
-         <div class="container clearfix">
-            <div class="footer__social section__title">
-               <a href="#" class="ic-tw"></a>
-               <a href="#" class="ic-tw"></a>
-               <a href="#" class="ic-tw"></a>
-               <a href="#" class="ic-tw"></a>
+        </div>
+    </nav>
+        <section class="home">
+        <article id="magic" class="container home__magic">
+        <div class="row">
+            <div class="col-md-6" itemprop="description" itemscope itemtype="http://schema.org/Organization">
+                <h2 class="home__magic__title">
+                    В каждом проекте мы используем магию
+
+                </h2>
+                <h4 class="home__magic__subtitle">
+                    Для того, что бы Ваш сайт был самым актуальным на сегодняшний день, мы используем самые новые технологии и немного волшебства.
+                </h4>
+                <p class="home__magic__text">
+                    С помощью актуальных инструментов мы делаем сайты, которые помогают развиваться Вашему бизнесу. А Вам получать дополнительных клиентов а следовательно зарабатывать больше!
+                </p>
+                <div class="home__magic__tools">
+                    <h4 class="home__magic__tools__title">Инструменты которые мы используем каждый день:</h4>
+                    <a href="/" class="home__magic__tools__item home__magic__tools__item_webpack"></a>
+                    <a href="/" class="home__magic__tools__item home__magic__tools__item_laravel"></a>
+                    <a href="/" class="home__magic__tools__item home__magic__tools__item_sass"></a>
+                    <a href="/" class="home__magic__tools__item home__magic__tools__item_python"></a>
+                    <a href="/" class="home__magic__tools__item home__magic__tools__item_jetbrains"></a>
+                </div>
             </div>
-            <div class="footer__inscription">© 2017</div>
-         </div>
-      </div>
-      </div>
-      <script  src="js/script.js"> </script>
-   </body>
+            <div class="col-md-6">
+                <img src="img/witch.png" alt="witch" class="home__magic__witch">
+            </div>
+        </div>
+        </article>
+        <article id="features" class="container home__features">
+        <header class="home__features__header">
+            <i class="home__features__header__icon bigicon icon-cup ">
+            </i>
+            <h2 class="home__features__header__title">
+                Это то, что мы делаем для вас
+            </h2>
+            <hr class="separator">
+        </header>
+        <div class="row">
+                    </div>
+        </article>
+        <article id="portfolio" class="home__portfolio">
+            <header class="home__portfolio__header">
+                <i class="home__portfolio__header__icon bigicon icon-rocket">
+                </i>
+                <h2 class="home__portfolio__header__title">
+                    Некоторые последние работы
+                </h2>
+                <hr class="separator">
+            </header>
+            <div class="container">
+                <div class="row">
+                                    </div>
+            </div>
+            <span class="home__portfolio__more">
+                Показать больше
+            </span>
+        </article>
+        <article id="reviews" class="container home__reviews">
+            <div class="row">
+                            </div>
+        </article>
+        <article id="feedback" class="container home__feedback">
+            <div class="home__feedback__header">
+                <i class="home__feedback__header__icon bigicon icon-bubble">
+                </i>
+                <h2 class="home__feedback__header__title">
+                    Остались вопросы?
+                </h2>
+            </div>
+            <div class="home__feedback__body row">
+                <div class="col-md-5">
+                    <h3 class="home__feedback__body__title">Свяжитесь с нами</h3>
+                    <p>
+                        <a href="" class="home__feedback__body__contact">+375(25)9021047</a><br>
+                        <a href="" class="home__feedback__body__contact">info@mitsin.by</a>
+                    </p>
+                    <img class="home__feedback__body__monster hidden-xs hidden-sm" src="img/monster.png" alt="Monster">
+                </div>
+                <div class="col-md-2">
+                    <h3 class="home__feedback__body__or">
+                        ИЛИ
+                    </h3>
+                </div>
+                <div class="col-md-5">
+                    <h3 class="home__feedback__body__title">Позвольте перезвонить Вам</h3>
+                    <form method="POST" action="http://mitsin.by/feedback" accept-charset="UTF-8" class="row home__feedback__body__form"><input name="_token" type="hidden" value="7WNhhBBpJ5g2Vfpv9I2qBId49BoXQsWkef0RSCSV">
+                        <div class="home__feedback__body__form_load"></div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input name="name" class="home__feedback__body__form__item" type="text" placeholder="name">
+                            </div>
+                            <div class="form-group">
+                                <input name="phone" class="home__feedback__body__form__item" type="text" placeholder="phone">
+                            </div>
+                            <div class="form-group">
+                                <input name="email" class="home__feedback__body__form__item" type="email" placeholder="email">
+                            </div>
+                            <button type="submit" class="btn btn-default home__feedback__body__form__send hidden-xs hidden-sm">
+                                Send
+                            </button>
+                        </div>
+                        <div class="col-md-8">
+
+                            <textarea name="message" rows="5" class="home__feedback__body__form__item home__feedback__body__form__item_text" placeholder="message">
+                            </textarea>
+                            <button type="submit" class="btn btn-default home__feedback__body__form__send visible-xs visible-sm">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <span class="footer__icon icon-speedometer"></span>
+            <nav class="footer__nav">
+                <a class="footer__nav__item" href="#header">Главная</a>
+                <a class="footer__nav__item" href="#magic">Магия</a>
+                <a class="footer__nav__item" href="#features">Особенности</a>
+                <a class="footer__nav__item" href="#portfolio">Портфолио</a>
+                <a class="footer__nav__item" href="#reviews">Отзывы</a>
+                <a class="footer__nav__item" data-toggle="modal" data-target="#feedback">Связь</a>
+            </nav>
+            <p class="footer__text" itemscope itemtype="http://schema.org/Organization">
+                <span itemprop="name">ИП Митин Н.В.</span> УНП291481318 p/c № <span>3013163401003</span> <br> ЗАО «Идея Банк» 220034 г.Минск, ул.З.Бядули, 11. Код банка 153001755 УНП 807000122 ОКПО 37638364
+            </p>
+        </div>
+    </footer>
+    <div class="modal fade feedback" id="feedback" tabindex="-1" role="dialog" aria-labelledby="feedback">
+        <div class="modal-dialog" role="document">
+            <form method="POST" action="http://mitsin.by/feedback" accept-charset="UTF-8" class="row feedback__form"><input name="_token" type="hidden" value="7WNhhBBpJ5g2Vfpv9I2qBId49BoXQsWkef0RSCSV">
+            <div class="feedback__form_load"></div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input name="name" class="feedback__form__item" type="text" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input name="phone" class="feedback__form__item" type="text" placeholder="phone">
+                </div>
+                <div class="form-group">
+                    <input name="email" class="feedback__form__item" type="email" placeholder="email">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <button type="submit" class="feedback__form__send">
+                    Send
+                </button>
+                <textarea name="message" rows="5" class="feedback__form__item feedback__form__item_text" placeholder="message">
+                </textarea>
+            </div>
+            </form>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="/js/app.js"></script>
+</body>
 </html>
