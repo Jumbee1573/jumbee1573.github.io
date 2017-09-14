@@ -82,34 +82,11 @@
     text-decoration: none; }
 
 .nav-item {
-  margin: 0 30px 15px 0;
-  float: left; }
-  .nav-item::before {
-    background: #fd7160;
-    bottom: 0;
-    content: "";
-    height: 4px;
-    left: 50%;
-    position: absolute;
-    right: 50%;
-    -webkit-transition-duration: .3s;
-         -o-transition-duration: .3s;
-            transition-duration: .3s;
-    -webkit-transition-property: left,right;
-    -o-transition-property: left,right;
-    transition-property: left,right;
-    -webkit-transition-timing-function: ease-out;
-         -o-transition-timing-function: ease-out;
-            transition-timing-function: ease-out;
-    webkit-transition-duration: .3s;
-    webkit-transition-property: left,right;
-    webkit-transition-timing-function: ease-out;
-    z-index: -1; }
-  .nav-item a {
-    color: transparent; }
-    .nav-item a:hover {
-      color: #444;
-      text-decoration: none; }
+  float: left;
+  padding: 14px; }
+  .nav-item a:hover {
+    color: #444;
+    text-decoration: none; }
 
 .header__navbar.default {
   background: #fff;
@@ -117,17 +94,6 @@
   -webkit-transition: top 1s ease-out 0.5s;
   -o-transition: top 1s ease-out 0.5s;
   transition: top 1s ease-out 0.5s; }
-
-.navbar .active:before,
-.nav-item:active:before,
-.nav-item:focus:before,
-.nav-item:hover:before {
-  left: 0;
-  right: 0; }
-
-.navbar .active > a {
-  background-color: transparent !important;
-  color: #fd7160 !important; }
 
 .tech {
   position: relative; }
@@ -240,7 +206,7 @@
       color: #fd7160; }
     .contact__feedback_withus-monster {
       position: relative;
-      bottom: -10px; }
+      bottom: -1; }
   .contact__feedback_form {
     float: right;
     margin-top: 25px; }

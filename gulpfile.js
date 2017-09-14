@@ -76,6 +76,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
     'app/css/libs.min.css',
     'app/css/reset.css',
     'app/css/fontello.css',
+    'app/css/animate.css',
   ])
     .pipe(gulp.dest('dist/css'));
 
