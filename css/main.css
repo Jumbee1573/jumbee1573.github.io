@@ -74,6 +74,7 @@ body {
 	background-color: #3797bf;
 	color: #fff;
 	margin-bottom: 20px;
+
 }
 .main_menu a {
 	color: #fff;
@@ -107,4 +108,35 @@ body {
 	font-size: 26px;
 	color: #fff;
 	padding: 8px 15px 0
+}
+h1 {
+	font-family: "RobotoLight";
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+.slider__container {
+	position: relative;
+}
+.slider__container img {
+	max-width: 100%;
+}
+.next_button,
+.prev_button {
+	color: #fff;
+	position: absolute;
+	cursor: pointer;
+	font-size: 43px;
+	z-index: 10;
+	top: 45%;
+	background-color: rgba(255,255,255, .5);
+	border-radius: 50%;
+}
+.next_button {
+	padding: 0 20px 0 23px;
+	right: 20px;
+}
+.prev_button {
+	padding: 0 23px 0 20px;
+	left: 20px;
 }

@@ -12,6 +12,7 @@
     position: absolute;
     width: 100%;
     background-color: #3797bf;
+    z-index: 11;
   }
   .main_menu ul li {
     display: block;

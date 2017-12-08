@@ -39,11 +39,23 @@
 	font-weight: normal;
 }
 @font-face {
-			font-family: "Nautilus";
-			src: url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.eot");
-			src: url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.eot?#iefix")format("embedded-opentype"),
-			url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.woff") format("woff"),
-			url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
-	}
+	font-family: "Nautilus";
+	src: url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.eot");
+	src: url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.woff") format("woff"),
+	url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RobotoCondensed";
+	url("../fonts/RobotoCondensed/3959.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RobotoCondensedLight";
+	url("../fonts/RobotoCondensedLight/roboto-condensed-light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
