@@ -7,6 +7,15 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+  .sell_descr {
+    text-align: center;
+  }
+  .sell_right .button {
+    max-width: 250px;
+    margin: 15px auto;
+    float: none;
+    text-align: center;
+  }
   .main_menu ul {
     display: none;
     position: absolute;
@@ -46,14 +55,14 @@
 }
 @media only screen and (max-width : 302px) {
   .top_contacts {
-  	font-size: 27px;
+  	font-size: 26px;
   	padding: 0 10px;
   	line-height: 53px;
   }
 }
 @media only screen and (max-width : 295px) {
   .top_contacts {
-  	font-size: 25px;
+  	font-size: 24px;
   	padding: 0 10px;
   	line-height: 53px;
   }
