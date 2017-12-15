@@ -7,6 +7,9 @@ $(document).ready(function() {
 		$(".main_menu ul").slideToggle();
 	});
 
+
+
+
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
@@ -17,7 +20,12 @@ $(document).ready(function() {
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
-	$(".fancybox").fancybox();
+	$(".fancybox").fancybox({
+		afterClose : function(){
+			document.getElementsByName('name')[0].value = '';
+			document.getElementsByName('phone')[0].value = '';
+		}
+	});
 
 	//Навигация по Landing Page
 	//$(".top_mnu") - это верхняя панель со ссылками.
