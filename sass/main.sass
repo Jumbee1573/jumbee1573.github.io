@@ -1,0 +1,77 @@
+@font-face
+   font-family: futurabook
+   src: url(../fonts/futurabook.otf)
+
+body
+  width: 100%
+
+*, :after, :before
+  margin: 0
+  padding: 0
+  outline: none
+  box-sizing: border-box
+  text-decoration: none
+
+.container
+  max-width: 1230px
+  margin-left: auto
+  margin-right: auto
+  padding-left: 25px
+  padding-right: 25px
+
+.container::after
+  content: ''
+  display: block
+  clear: both
+  height: 0
+
+.clearfix
+  content: ''
+  display: block
+  clear: both
+  height: 0
+
+.header__wrap
+  background: url(../image/bg.png)
+  background-size: cover
+
+.header-futura
+  font: 17px futurabook, sans-serif
+
+.header__navbar
+  padding: 80px 0
+  &_wrap
+    background-color: #fff
+  &_logo
+    background: url(../image/logo.png) no-repeat center center
+    background-size: contain
+    display: inline-block
+    width: 200px
+    height: 90px
+    float: left
+    margin-right: 30px
+  &_copy
+    display: inline-block
+    margin-top: 40px
+    padding-right: 180px
+  &_menu
+    display: inline-block
+  &_menu ul
+    margin: 0
+    padding: 0
+    list-style-type: none
+    text-transform: uppercase
+  &_menu ul li
+    display: inline-block
+  &_menu ul li a
+    color: #000
+    padding: 20px 20px
+    display: block
+
+.phone
+  width: 100%
+  margin-top: 270px
+  text-align: center
+  & span
+    font: 90px futurabook, sans-serif
+    color: #fff
