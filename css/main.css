@@ -45,6 +45,7 @@ body {
   box-sizing: border-box;
   text-decoration: none;
 }
+
 .active {
   font-weight: bold;
 }
@@ -254,10 +255,12 @@ body {
 .clients .gradient_text {
   margin: 0;
 }
+
 .projects__wrap {
   background-color: #fff;
   padding: 70px 0 100px 0;
 }
+
 .projects__block {
   display: -webkit-flex;
   display: -ms-flex;
@@ -267,58 +270,73 @@ body {
   flex-direction: row;
   width: 100%;
 }
+
 .projects__block_glasses-image {
   width: 50%;
 }
+
 .projects__block_glasses-image img {
   width: 120%;
   height: 110%;
   position: relative;
   left: -25%;
 }
+
 .projects__block_glasses-text {
   width: 50%;
   padding-left: 10%;
 }
+
 .projects__block_refueling-image {
   width: 40%;
 }
-.projects__block_refueling-image img{
+
+.projects__block_refueling-image img {
   width: 100%;
   height: 110%;
 }
+
 .projects__block_refueling-text {
   width: 60%;
   padding: 7% 0 0 15%;
 }
+
 .projects__block_title {
   margin-top: 70px;
 }
+
 .projects__block_description {
   margin-top: 60px;
 }
+
 .projects__block_link {
   margin-top: 65px;
 }
+
 .projects__block_title span {
   font: 38px futurabook_heavy, sans-serif;
   color: #333;
 }
+
 .projects__block_description span {
   font: 18px futurabook, sans-serif;
   color: #4d4d4d;
 }
+
 .projects__block_link span a {
   font: 22px futurabook_demi, sans-serif;
   color: #333;
   text-decoration: underline;
 }
+
 .projects__title .gradient_text {
   margin: 0;
 }
+
 .offering__wrap {
   padding: 130px 0 120px;
 }
+
 .offering {
   display: -webkit-flex;
   display: -ms-flex;
@@ -329,15 +347,19 @@ body {
   -ms-align-items: center;
   align-items: center;
 }
+
 .offering__block {
   margin-top: 65px;
 }
+
 .offering__block:first-child {
   margin-top: 0;
 }
+
 .offering__block span {
   font: 100px futurabook_light, sans-serif;
 }
+
 .bests, .communication, .piar {
   display: -webkit-flex;
   display: -ms-flex;
@@ -347,10 +369,12 @@ body {
   flex-direction: row;
   text-align: center;
 }
+
 .bests span {
   font: 29px futurabook, sans-serif;
   margin: 0 auto 190px;
 }
+
 .communication span {
   font: 74px futurabook_bold, sans-serif;
   margin: 0 auto 50px;
@@ -360,9 +384,11 @@ body {
   font: 29px futurabook, sans-serif;
   margin: 0 auto 140px;
 }
+
 .contact__consultation_bottom {
   padding-bottom: 140px;
 }
+
 .contact__consultation_bottom form {
   display: -webkit-flex;
   display: -ms-flex;
@@ -437,9 +463,11 @@ body {
   align-items: left;
   justify-content: center;
 }
+
 .footer__navbar_info-languages a {
   color: #000;
 }
+
 .footer__navbar_info-phone, .footer__navbar_info-mail {
   font: 18px futurabook, sans-serif;
 }
@@ -465,6 +493,7 @@ body {
   display: block;
   text-decoration: none;
 }
+
 @media only screen and (max-width: 320px) {
   .header__navbar {
     padding: 25px 0;
@@ -530,6 +559,94 @@ body {
   }
   .clients__wrap {
     padding: 40px 0;
+  }
+  .projects__block_title span {
+    font: 8px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 5px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 7px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 20px 0;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+  }
+  .projects__block_description {
+    margin-top: 0px;
+  }
+  .projects__block_link {
+    margin-top: 0px;
+  }
+  .projects__title .gradient_text {
+    margin-top: 5px;
+  }
+  .offering__wrap {
+    padding: 36px 0 19px;
+  }
+  .offering__block span {
+    font: 20px futurabook_light, sans-serif;
+  }
+  .offering__block {
+    margin-top: 15px;
+  }
+  .bests span {
+    font: 10px futurabook, sans-serif;
+    margin: 20px auto 40px;
+  }
+  .communication span {
+    font: 16px futurabook_bold, sans-serif;
+    margin: 0 auto 30px;
+  }
+  .piar span {
+    font: 6px futurabook, sans-serif;
+    margin: 0px auto;
+  }
+  .contact__consultation_bottom {
+    padding-bottom: 40px;
+  }
+  .contact__consultation_bottom form {
+    margin-top: 35px;
+  }
+  .contact__consultation_bottom-input {
+    font: 5px futurabook, sans-serif;
+    padding: 3px;
+    width: 130px;
+  }
+  .contact__consultation_bottom-indent {
+    margin-top: 6px;
+  }
+  .contact__consultation_bottom-button {
+    margin-top: 8px;
+    font: 6px futurabook_bold, sans-serif;
+    padding: 4px;
+    width: 90px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 5px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
   }
 }
 
@@ -599,9 +716,97 @@ body {
   .clients__wrap {
     padding: 40px 0;
   }
+  .projects__block_title span {
+    font: 8px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 5px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 7px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 20px 0;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+  }
+  .projects__block_description {
+    margin-top: 0px;
+  }
+  .projects__block_link {
+    margin-top: 0px;
+  }
+  .projects__title .gradient_text {
+    margin-top: 5px;
+  }
+  .offering__wrap {
+    padding: 36px 0 19px;
+  }
+  .offering__block span {
+    font: 20px futurabook_light, sans-serif;
+  }
+  .offering__block {
+    margin-top: 15px;
+  }
+  .bests span {
+    font: 10px futurabook, sans-serif;
+    margin: 20px auto 40px;
+  }
+  .communication span {
+    font: 16px futurabook_bold, sans-serif;
+    margin: 0 auto 30px;
+  }
+  .piar span {
+    font: 6px futurabook, sans-serif;
+    margin: 0px auto;
+  }
+  .contact__consultation_bottom {
+    padding-bottom: 40px;
+  }
+  .contact__consultation_bottom form {
+    margin-top: 40px;
+  }
+  .contact__consultation_bottom-input {
+    font: 7px futurabook, sans-serif;
+    padding: 4px;
+    width: 150px;
+  }
+  .contact__consultation_bottom-indent {
+    margin-top: 6px;
+  }
+  .contact__consultation_bottom-button {
+    margin-top: 10px;
+    font: 7px futurabook_bold, sans-serif;
+    padding: 4px;
+    width: 110px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 5px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
+  }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) {
   .header__navbar {
     padding: 25px 0;
   }
@@ -667,67 +872,156 @@ body {
   }
   .clients__wrap {
     padding: 40px 0;
+  }
+  .projects__block_title span {
+    font: 11px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 7px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 9px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 20px 0;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+  }
+  .projects__block_description {
+    margin-top: 0px;
+  }
+  .projects__block_link {
+    margin-top: 0px;
+  }
+  .projects__title .gradient_text {
+    margin-top: 5px;
+  }
+  .offering__wrap {
+    padding: 36px 0 19px;
+  }
+  .offering__block span {
+    font: 25px futurabook_light, sans-serif;
+  }
+  .offering__block {
+    margin-top: 10px;
+  }
+  .bests span {
+    font: 11px futurabook, sans-serif;
+    margin: 10px auto 30px;
+  }
+  .communication span {
+    font: 20px futurabook_bold, sans-serif;
+    margin: 0 auto 25px;
+  }
+  .piar span {
+    font: 8px futurabook, sans-serif;
+    margin: 0px auto;
+  }
+  .contact__consultation_bottom {
+    padding-bottom: 40px;
+  }
+  .contact__consultation_bottom form {
+    margin-top: 40px;
+  }
+  .contact__consultation_bottom-input {
+    font: 7px futurabook, sans-serif;
+    padding: 4px;
+    width: 150px;
+  }
+  .contact__consultation_bottom-indent {
+    margin-top: 6px;
+  }
+  .contact__consultation_bottom-button {
+    margin-top: 10px;
+    font: 7px futurabook_bold, sans-serif;
+    padding: 4px;
+    width: 110px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 6px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 7px futurabook, sans-serif;
   }
 }
-/* @media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 768px) {
   .header__navbar {
     padding: 25px 0;
   }
   .header-futura p {
-    font: 7px futurabook, sans-serif;
+    font: 10px futurabook, sans-serif;
   }
   .header__navbar_menu {
-    font: 6px futurabook, sans-serif;
+    font: 11px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.4em;
   }
   .header__navbar_logo {
     width: 20%;
-    height: 25px;
-    margin-left: 0.8em;
+    height: 35px;
+    margin-left: 2em;
   }
   .contact__phone span a {
-    font: 25px futurabook, sans-serif;
+    font: 42px futurabook, sans-serif;
     color: #fff;
   }
   .contact {
-    padding-top: 65px;
+    padding-top: 90px;
   }
   .contact__mail {
-    font: 15px futurabook, sans-serif;
+    font: 25px futurabook, sans-serif;
     margin-top: 9px;
   }
   .contact__consultation form {
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .contact__consultation_input {
-    font: 7px futurabook, sans-serif;
-    padding: 4px;
-    width: 150px;
+    font: 11px futurabook, sans-serif;
+    padding: 6px;
+    width: 247px;
   }
   .contact__consultation_indent {
     margin-top: 6px;
   }
   .contact__consultation_button {
-    margin-top: 10px;
-    font: 7px futurabook_bold, sans-serif;
-    padding: 4px;
-    width: 110px;
+    margin-top: 25px;
+    font: 9px futurabook_bold, sans-serif;
+    padding: 6px;
+    width: 150px;
   }
   .gradient_text {
-    margin-top: 22px;
-    font: 33px futurabook_bold, sans-serif;
+    margin-top: 47px;
+    font: 60px futurabook_bold, sans-serif;
   }
   .statistics__block {
     width: 33%;
-    margin: 30px 0;
+    margin: 90px 0;
   }
   .statistics__block_number span {
-    font: 23px futurabook_light, sans-serif;
+    font: 45px futurabook_light, sans-serif;
   }
   .statistic__block_description span {
-    font: 6px futurabook, sans-serif;
+    font: 9px futurabook, sans-serif;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -736,4 +1030,243 @@ body {
   .clients__wrap {
     padding: 40px 0;
   }
-} */
+  .projects__block_title span {
+    font: 20px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 9px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 12px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 20px 0;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+  }
+  .projects__block_description {
+    margin-top: 15px;
+  }
+  .projects__block_link {
+    margin-top: 20px;
+  }
+  .offering__wrap {
+    padding: 36px 0 19px;
+  }
+  .offering__block span {
+    font: 36px futurabook_light, sans-serif;
+  }
+  .offering__block {
+    margin-top: 15px;
+  }
+  .bests span {
+    font: 13px futurabook, sans-serif;
+    margin: 30px auto 55px;
+  }
+  .communication span {
+    font: 30px futurabook_bold, sans-serif;
+    margin: 0 auto 65px;
+  }
+  .piar span {
+    font: 11px futurabook, sans-serif;
+    margin: 0px auto;
+  }
+  .contact__consultation_bottom {
+    padding-bottom: 75px;
+  }
+  .contact__consultation_bottom form {
+    margin-top: 60px;
+  }
+  .contact__consultation_bottom-input {
+    font: 11px futurabook, sans-serif;
+    padding: 6px;
+    width: 247px;
+  }
+  .contact__consultation_bottom-indent {
+    margin-top: 6px;
+  }
+  .contact__consultation_bottom-button {
+    margin-top: 25px;
+    font: 9px futurabook_bold, sans-serif;
+    padding: 6px;
+    width: 150px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 12px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 40px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 10px futurabook, sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header-futura p {
+    font: 13px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 14px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 50px;
+    margin-left: 2em;
+  }
+  .contact__phone span a {
+    font: 60px futurabook, sans-serif;
+    color: #fff;
+  }
+  .contact {
+    padding-top: 100px;
+  }
+  .contact__mail {
+    font: 30px futurabook, sans-serif;
+    margin-top: 9px;
+  }
+  .contact__consultation form {
+    margin-top: 70px;
+  }
+  .contact__consultation_input {
+    font: 12px futurabook, sans-serif;
+    padding: 7px;
+    width: 300px;
+  }
+  .contact__consultation_indent {
+    margin-top: 12px;
+  }
+  .contact__consultation_button {
+    margin-top: 25px;
+    font: 12px futurabook_bold, sans-serif;
+    padding: 7px;
+    width: 200px;
+  }
+  .gradient_text {
+    margin-top: 50px;
+    font: 70px futurabook_bold, sans-serif;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 90px 0;
+  }
+  .statistics__block_number span {
+    font: 50px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 11px futurabook, sans-serif;
+  }
+  .partners__wrap {
+    padding: 40px 0;
+    width: 100%;
+  }
+  .clients__wrap {
+    padding: 40px 0;
+  }
+  .projects__block_title span {
+    font: 25px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 12px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 15px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 20px 0;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+  }
+  .projects__block_description {
+    margin-top: 20px;
+  }
+  .projects__block_link {
+    margin-top: 20px;
+  }
+  .offering__wrap {
+    padding: 30px 0 20px;
+  }
+  .offering__block span {
+    font: 45px futurabook_light, sans-serif;
+  }
+  .offering__block {
+    margin-top: 20px;
+  }
+  .bests span {
+    font: 15px futurabook, sans-serif;
+    margin: 30px auto 55px;
+  }
+  .communication span {
+    font: 35px futurabook_bold, sans-serif;
+    margin: 0 auto 65px;
+  }
+  .piar span {
+    font: 14px futurabook, sans-serif;
+    margin: 0px auto;
+  }
+  .contact__consultation_bottom {
+    padding-bottom: 75px;
+  }
+  .contact__consultation_bottom form {
+    margin-top: 70px;
+  }
+  .contact__consultation_bottom-input {
+    font: 12px futurabook, sans-serif;
+    padding: 7px;
+    width: 300px;
+  }
+  .contact__consultation_bottom-indent {
+    margin-top: 12px;
+  }
+  .contact__consultation_bottom-button {
+    margin-top: 25px;
+    font: 12px futurabook_bold, sans-serif;
+    padding: 7px;
+    width: 200px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 15px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 50px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 11px futurabook, sans-serif;
+  }
+}
