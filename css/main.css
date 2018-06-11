@@ -485,7 +485,7 @@ body {
   -ms-flex-direction: row;
   flex-direction: row;
   align-items: center;
-  font: 19px futurabook, sans-serif;
+  font: 18px futurabook, sans-serif;
 }
 
 .footer__navbar_menu a {
@@ -493,4 +493,76 @@ body {
   padding: 1em;
   display: block;
   text-decoration: none;
+}
+
+.anim {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  -webkit-animation-name: example;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 100s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 100s;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1;
+  -moz-animation-delay: 1;
+  -o-animation-delay: 1;
+  animation-delay: 1;
+}
+
+.anim img {
+  width: 200px;
+  height: 500px;
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes example {
+  0% {
+    left: 75%;
+    top: 0em;
+  }
+  25% {
+    left: 75%;
+    top: -500em;
+  }
+  50% {
+    left: 75%;
+    top: -500em;
+  }
+  75% {
+    left: 75%;
+    top: -500em;
+  }
+  100% {
+    left: 75%;
+    top: -500em;
+  }
+}
+
+/* Standard syntax */
+
+@keyframes example {
+  0% {
+    left: 75%;
+    top: 0em;
+  }
+  25% {
+    left: 75%;
+    top: -500em;
+  }
+  50% {
+    left: 75%;
+    top: -500em;
+  }
+  75% {
+    left: 75%;
+    top: -500em;
+  }
+  100% {
+    left: 75%;
+    top: -500em;
+  }
 }
