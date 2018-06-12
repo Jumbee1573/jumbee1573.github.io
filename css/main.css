@@ -165,11 +165,11 @@ body {
 }
 
 .contact__consultation_input {
-  font: 29px futurabook, sans-serif;
-  padding: 20px;
-  width: 630px;
-  background-color: rgba(255, 255, 255, .5);
-  color: #e9f0f5 !important;
+  font: 28px futurabook, sans-serif;
+  padding: 18px;
+  width: 560px;
+  background-color: #fff;
+  color: #b3b3b4 !important;
   border: none;
 }
 
@@ -178,17 +178,17 @@ body {
 }
 
 .contact__consultation_input::-webkit-input-placeholder {
-  color: #e9f0f5 !important;
+  color: #b3b3b4 !important;
 }
 
 .contact__consultation_button {
-  margin-top: 60px;
-  background-color: #d9e9f1;
+  margin-top: 47px;
+  background-color: #8431a6;
   border: none;
-  font: 25px futurabook_bold, sans-serif;
-  color: #595959;
-  padding: 28px;
-  width: 460px;
+  font: 24px futurabook_bold, sans-serif;
+  color: #fff;
+  padding: 17px;
+  width: 396px;
   cursor: pointer;
 }
 
@@ -196,7 +196,7 @@ body {
   margin-top: 140px;
   text-align: center;
   text-transform: uppercase;
-  font: 150px futurabook_bold, sans-serif;
+  font: 140px futurabook_bold, sans-serif;
   line-height: 150px;
   color: #a130a1;
   width: 100%;
@@ -216,7 +216,7 @@ body {
 
 .statistics__block {
   width: 33%;
-  margin: 260px 0;
+  margin: 210px 0;
 }
 
 .statistics__block_number span {
@@ -350,7 +350,7 @@ body {
 }
 
 .offering__block {
-  margin-top: 65px;
+  margin-top: 35px;
 }
 
 .offering__block:first-child {
@@ -358,7 +358,7 @@ body {
 }
 
 .offering__block span {
-  font: 100px futurabook_light, sans-serif;
+  font: 70px futurabook_light, sans-serif;
 }
 
 .bests, .communication, .piar {
@@ -372,17 +372,17 @@ body {
 }
 
 .bests span {
-  font: 29px futurabook, sans-serif;
-  margin: 0 auto 190px;
+  font: 21px futurabook, sans-serif;
+  margin: 0 auto 120px;
 }
 
 .communication span {
-  font: 74px futurabook_bold, sans-serif;
+  font: 56px futurabook_bold, sans-serif;
   margin: 0 auto 50px;
 }
 
 .piar span {
-  font: 29px futurabook, sans-serif;
+  font: 21px futurabook, sans-serif;
   margin: 0 auto 140px;
 }
 
@@ -401,9 +401,9 @@ body {
 }
 
 .contact__consultation_bottom-input {
-  font: 29px futurabook, sans-serif;
-  padding: 20px;
-  width: 630px;
+  font: 28px futurabook, sans-serif;
+  padding: 18px;
+  width: 560px;
   background-color: #fff;
   color: #b3b3b4 !important;
   border: none;
@@ -418,13 +418,13 @@ body {
 }
 
 .contact__consultation_bottom-button {
-  margin-top: 60px;
+  margin-top: 47px;
   background-color: #8431a6;
   border: none;
-  font: 25px futurabook_bold, sans-serif;
+  font: 24px futurabook_bold, sans-serif;
   color: #fff;
-  padding: 28px;
-  width: 460px;
+  padding: 17px;
+  width: 396px;
   cursor: pointer;
 }
 
