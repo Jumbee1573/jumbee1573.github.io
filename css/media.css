@@ -546,7 +546,7 @@
   }
   .statistics__block {
     width: 33%;
-    margin: 100px 0;
+    margin: 70px 0;
   }
   .statistics__block_number span {
     font: 65px futurabook_light, sans-serif;
@@ -631,7 +631,7 @@
     padding: 35px 0;
   }
   .footer__navbar_menu {
-    font: 12px futurabook, sans-serif !important;
+    font: 11px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.4em;
@@ -662,28 +662,28 @@
     padding: 40px 0;
   }
   .header-futura p {
-    font: 14px futurabook, sans-serif;
+    font: 13px futurabook, sans-serif;
   }
   .header__navbar_menu {
-    font: 15px futurabook, sans-serif;
+    font: 13px futurabook, sans-serif;
   }
   .header__navbar_menu a {
-    padding: 0.4em;
+    padding: 0.7em;
   }
   .header__navbar_logo {
     width: 20%;
-    height: 65px;
+    height: 60px;
     margin-left: 2em;
   }
   .contact__phone span a {
-    font: 70px futurabook, sans-serif;
+    font: 65px futurabook, sans-serif;
     color: #fff;
   }
   .contact {
     padding-top: 100px;
   }
   .contact__mail {
-    font: 40px futurabook, sans-serif;
+    font: 37px futurabook, sans-serif;
     margin-top: 9px;
   }
   .contact__consultation form {
@@ -692,7 +692,7 @@
   .contact__consultation_input {
     font: 18px futurabook, sans-serif;
     padding: 11px;
-    width: 405px;
+    width: 365px;
   }
   .contact__consultation_indent {
     margin-top: 15px;
@@ -701,18 +701,21 @@
     margin-top: 30px;
     font: 17px futurabook_bold, sans-serif;
     padding: 10px;
-    width: 305px;
+    width: 270px;
   }
   .gradient_text {
     margin-top: 55px;
-    font: 107px futurabook_bold, sans-serif;
+    font: 90px futurabook_bold, sans-serif;
   }
   .statistics__block {
     width: 33%;
     margin: 110px 0;
   }
+  .statistics__wrap {
+    padding: 0 22%;
+  }
   .statistics__block_number span {
-    font: 75px futurabook_light, sans-serif;
+    font: 65px futurabook_light, sans-serif;
   }
   .statistic__block_description span {
     font: 13px futurabook, sans-serif;
@@ -753,21 +756,21 @@
     padding: 30px 0 20px;
   }
   .offering__block span {
-    font: 45px futurabook_light, sans-serif;
+    font: 40px futurabook_light, sans-serif;
   }
   .offering__block {
     margin-top: 20px;
   }
   .bests span {
-    font: 18px futurabook, sans-serif;
+    font: 17px futurabook, sans-serif;
     margin: 30px auto 55px;
   }
   .communication span {
-    font: 41px futurabook_bold, sans-serif;
+    font: 35px futurabook_bold, sans-serif;
     margin: 0 auto 65px;
   }
   .piar span {
-    font: 16px futurabook, sans-serif;
+    font: 14px futurabook, sans-serif;
     margin: 0px auto;
   }
   .contact__consultation_bottom {
@@ -779,7 +782,7 @@
   .contact__consultation_bottom-input {
     font: 18px futurabook, sans-serif;
     padding: 11px;
-    width: 405px;
+    width: 365px;
   }
   .contact__consultation_bottom-indent {
     margin-top: 15px;
@@ -788,26 +791,26 @@
     margin-top: 30px;
     font: 17px futurabook_bold, sans-serif;
     padding: 10px;
-    width: 305px;
+    width: 270px;
   }
   .footer__navbar {
     padding: 40px 0;
   }
   .footer__navbar_menu {
-    font: 15px futurabook, sans-serif !important;
+    font: 13px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
-    padding: 0.4em;
+    padding: 0.7em;
   }
   .footer__navbar_logo {
-    height: 50px;
+    height: 60px;
     margin-left: 0.7em;
   }
   .footer__navbar_info {
     margin-left: 0.4em;
   }
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
-    font: 14px futurabook, sans-serif;
+    font: 13px futurabook, sans-serif;
   }
   .anim {
     -webkit-animation-duration: 120s;
@@ -1033,57 +1036,60 @@
     padding: 105px 0;
   }
   .header-futura p {
-    font: 38px futurabook, sans-serif;
+    font: 30px futurabook, sans-serif;
   }
   .header__navbar_menu {
-    font: 38px futurabook, sans-serif;
+    font: 30px futurabook, sans-serif;
   }
   .header__navbar_menu a {
-    padding: 0.4em;
+    padding: 0.9em;
   }
   .header__navbar_logo {
     width: 20%;
-    height: 170px;
+    height: 130px;
     margin-left: 2em;
   }
   .contact__phone span a {
-    font: 175px futurabook, sans-serif;
+    font: 140px futurabook, sans-serif;
     color: #fff;
   }
   .contact {
     padding-top: 185px;
   }
   .contact__mail {
-    font: 85px futurabook, sans-serif;
+    font: 75px futurabook, sans-serif;
     margin-top: 9px;
   }
   .contact__consultation form {
     margin-top: 140px;
   }
   .contact__consultation_input {
-    font: 50px futurabook, sans-serif;
-    padding: 30px;
-    width: 1060px;
+    font: 46px futurabook, sans-serif;
+    padding: 25px;
+    width: 885px;
   }
   .contact__consultation_indent {
     margin-top: 35px;
   }
   .contact__consultation_button {
-    margin-top: 71px;
-    font: 50px futurabook_bold, sans-serif;
-    padding: 25px;
-    width: 800px;
+    margin-top: 70px;
+    font: 42px futurabook_bold, sans-serif;
+    padding: 22px;
+    width: 632px;
   }
   .gradient_text {
     margin-top: 160px;
-    font: 255px futurabook_bold, sans-serif;
+    font: 210px futurabook_bold, sans-serif;
   }
   .statistics__block {
     width: 33%;
-    margin: 180px 0;
+    margin: 130px 0;
+  }
+  .statistics__wrap {
+    padding: 0px 23%
   }
   .statistics__block_number span {
-    font: 170px futurabook_light, sans-serif;
+    font: 140px futurabook_light, sans-serif;
   }
   .statistic__block_description span {
     font: 30px futurabook, sans-serif;
@@ -1096,15 +1102,15 @@
     padding: 65px 0;
   }
   .projects__block_title span {
-    font: 70px futurabook_heavy, sans-serif;
+    font: 60px futurabook_heavy, sans-serif;
     color: #333;
   }
   .projects__block_description span {
-    font: 35px futurabook, sans-serif;
+    font: 30px futurabook, sans-serif;
     color: #4d4d4d;
   }
   .projects__block_link span a {
-    font: 45px futurabook_demi, sans-serif;
+    font: 37px futurabook_demi, sans-serif;
     color: #333;
     text-decoration: underline;
   }
@@ -1124,21 +1130,21 @@
     padding: 105px 0 40px;
   }
   .offering__block span {
-    font: 110px futurabook_light, sans-serif;
+    font: 100px futurabook_light, sans-serif;
   }
   .offering__block {
     margin-top: 45px;
   }
   .bests span {
-    font: 45px futurabook, sans-serif;
+    font: 40px futurabook, sans-serif;
     margin: 130px auto 165px;
   }
   .communication span {
-    font: 100px futurabook_bold, sans-serif;
+    font: 90px futurabook_bold, sans-serif;
     margin: 0 auto 125px;
   }
   .piar span {
-    font: 38px futurabook, sans-serif;
+    font: 33px futurabook, sans-serif;
     margin: 0px auto;
   }
   .contact__consultation_bottom {
@@ -1148,37 +1154,37 @@
     margin-top: 140px;
   }
   .contact__consultation_bottom-input {
-    font: 50px futurabook, sans-serif;
-    padding: 30px;
-    width: 1060px;
+    font: 46px futurabook, sans-serif;
+    padding: 25px;
+    width: 885px;
   }
   .contact__consultation_bottom-indent {
     margin-top: 35px;
   }
   .contact__consultation_bottom-button {
-    margin-top: 71px;
-    font: 50px futurabook_bold, sans-serif;
-    padding: 25px;
-    width: 800px;
+    margin-top: 70px;
+    font: 42px futurabook_bold, sans-serif;
+    padding: 22px;
+    width: 632px;
   }
   .footer__navbar {
     padding: 105px 0;
   }
   .footer__navbar_menu {
-    font: 38px futurabook, sans-serif !important;
+    font: 30px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
-    padding: 0.4em;
+    padding: 0.9em;
   }
   .footer__navbar_logo {
-    height: 170px;
+    height: 130px;
     margin-left: 0.7em;
   }
   .footer__navbar_info {
     margin-left: 0.4em;
   }
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
-    font: 38px futurabook, sans-serif;
+    font: 30px futurabook, sans-serif;
   }
   .anim {
     -webkit-animation-duration: 80s;
