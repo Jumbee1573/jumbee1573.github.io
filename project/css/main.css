@@ -193,10 +193,12 @@ body {
 
 .projects__block_title {
   margin-top: 70px;
+  width: 70%;
 }
 
 .projects__block_description {
   margin-top: 60px;
+  width: 70%;
 }
 
 .projects__block_link {

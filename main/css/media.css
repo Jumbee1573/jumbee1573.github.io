@@ -46,6 +46,7 @@
   .gradient_text {
     margin-top: 20px;
     font: 35px futurabook_bold, sans-serif;
+    width: 60%;
   }
   .statistics__block {
     width: 33%;
@@ -56,6 +57,7 @@
   }
   .statistic__block_description span {
     font: 6px futurabook, sans-serif;
+    width: 49%;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -82,9 +84,11 @@
   }
   .projects__block_title {
     margin-top: 20px;
+    width: 68%;
   }
   .projects__block_description {
     margin-top: 0px;
+    width: 70%;
   }
   .projects__block_link {
     margin-top: 0px;
@@ -108,10 +112,12 @@
   .communication span {
     font: 15px futurabook_bold, sans-serif;
     margin: 0 auto 30px;
+    width: 70%;
   }
   .piar span {
     font: 6px futurabook, sans-serif;
     margin: 0px auto;
+    width: 46%;
   }
   .contact__consultation_bottom {
     padding-bottom: 40px;
@@ -211,6 +217,7 @@
   .gradient_text {
     margin-top: 22px;
     font: 49px futurabook_bold, sans-serif;
+    width: 65%;
   }
   .statistics__block {
     width: 33%;
@@ -221,6 +228,7 @@
   }
   .statistic__block_description span {
     font: 6px futurabook, sans-serif;
+    width: 43%;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -247,9 +255,11 @@
   }
   .projects__block_title {
     margin-top: 20px;
+    width: 70%;
   }
   .projects__block_description {
     margin-top: 0px;
+    width: 80%;
   }
   .projects__block_link {
     margin-top: 0px;
@@ -273,10 +283,12 @@
   .communication span {
     font: 17px futurabook_bold, sans-serif;
     margin: 0 auto 30px;
+    width: 67%;
   }
   .piar span {
     font: 7px futurabook, sans-serif;
     margin: 0px auto;
+    width: 46%;
   }
   .contact__consultation_bottom {
     padding-bottom: 40px;
@@ -377,6 +389,7 @@
   .gradient_text {
     margin-top: 25px;
     font: 55px futurabook_bold, sans-serif;
+    width: 65%;
   }
   .statistics__block {
     width: 33%;
@@ -387,6 +400,7 @@
   }
   .statistic__block_description span {
     font: 8px futurabook, sans-serif;
+    width: 50%;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -416,6 +430,7 @@
   }
   .projects__block_description {
     margin-top: 2px;
+    width: 80%;
   }
   .projects__block_link {
     margin-top: 4px;
@@ -439,10 +454,12 @@
   .communication span {
     font: 20px futurabook_bold, sans-serif;
     margin: 0 auto 25px;
+    width: 70%;
   }
   .piar span {
     font: 8px futurabook, sans-serif;
     margin: 0px auto;
+    width: 47%;
   }
   .contact__consultation_bottom {
     padding-bottom: 40px;
@@ -494,7 +511,179 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 601px) and (min-width: 426px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header-futura p {
+    font: 8px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 8px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.6em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 32px;
+    margin-left: 0.8em;
+  }
+  .contact__phone span a {
+    font: 35px futurabook, sans-serif;
+    color: #fff;
+  }
+  .contact {
+    padding-top: 65px;
+  }
+  .contact__mail {
+    font: 20px futurabook, sans-serif;
+    margin-top: 9px;
+  }
+  .contact__consultation form {
+    margin-top: 40px;
+  }
+  .contact__consultation_input {
+    font: 11px futurabook, sans-serif;
+    padding: 6px;
+    width: 205px;
+  }
+  .contact__consultation_indent {
+    margin-top: 9px;
+  }
+  .contact__consultation_button {
+    margin-top: 15px;
+    font: 10px futurabook_bold, sans-serif;
+    padding: 6px;
+    width: 155px;
+  }
+  .gradient_text {
+    margin-top: 25px;
+    font: 55px futurabook_bold, sans-serif;
+    width: 45%;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 60px 0;
+  }
+  .statistics__block_number span {
+    font: 40px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 8px futurabook, sans-serif;
+    width: 35%;
+  }
+  .partners__wrap {
+    padding: 40px 0;
+    width: 100%;
+  }
+  .clients__wrap {
+    padding: 40px 0;
+  }
+  .projects__block_title span {
+    font: 12px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 7px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 10px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 20px 0;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+    width: 53%;
+  }
+  .projects__block_description {
+    margin-top: 2px;
+    width: 70%;
+  }
+  .projects__block_link {
+    margin-top: 4px;
+  }
+  .projects__title .gradient_text {
+    margin-top: 5px;
+  }
+  .offering__wrap {
+    padding: 36px 0 19px;
+  }
+  .offering__block span {
+    font: 22px futurabook_light, sans-serif;
+  }
+  .offering__block {
+    margin-top: 7px;
+  }
+  .bests span {
+    font: 13px futurabook, sans-serif;
+    margin: 10px auto 30px;
+  }
+  .communication span {
+    font: 20px futurabook_bold, sans-serif;
+    margin: 0 auto 25px;
+    width: 49%;
+  }
+  .piar span {
+    font: 8px futurabook, sans-serif;
+    margin: 0px auto;
+    width: 33%;
+  }
+  .contact__consultation_bottom {
+    padding-bottom: 40px;
+  }
+  .contact__consultation_bottom form {
+    margin-top: 40px;
+  }
+  .contact__consultation_bottom-input {
+    font: 11px futurabook, sans-serif;
+    padding: 6px;
+    width: 205px;
+  }
+  .contact__consultation_bottom-indent {
+    margin-top: 9px;
+  }
+  .contact__consultation_bottom-button {
+    margin-top: 15px;
+    font: 10px futurabook_bold, sans-serif;
+    padding: 6px;
+    width: 155px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 8px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.6em;
+  }
+  .footer__navbar_logo {
+    height: 35px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 8px futurabook, sans-serif;
+  }
+  .anim {
+    -webkit-animation-duration: 160s;
+    /* Safari 4.0 - 8.0 */
+    animation-duration: 160s;
+  }
+  .anim img {
+    width: 70px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 602px) {
   .header__navbar {
     padding: 35px 0;
   }
@@ -543,6 +732,7 @@
   .gradient_text {
     margin-top: 50px;
     font: 85px futurabook_bold, sans-serif;
+    width: 60%;
   }
   .statistics__block {
     width: 33%;
@@ -553,6 +743,7 @@
   }
   .statistic__block_description span {
     font: 11px futurabook, sans-serif;
+    width: 38%;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -579,9 +770,11 @@
   }
   .projects__block_title {
     margin-top: 30px;
+    width: 75%;
   }
   .projects__block_description {
     margin-top: 15px;
+    width: 70%;
   }
   .projects__block_link {
     margin-top: 20px;
@@ -706,6 +899,7 @@
   .gradient_text {
     margin-top: 55px;
     font: 90px futurabook_bold, sans-serif;
+    width: 45%;
   }
   .statistics__block {
     width: 33%;
@@ -719,6 +913,7 @@
   }
   .statistic__block_description span {
     font: 13px futurabook, sans-serif;
+    width: 40%;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -745,9 +940,11 @@
   }
   .projects__block_title {
     margin-top: 40px;
+    width: 70%;
   }
   .projects__block_description {
     margin-top: 40px;
+    width: 80%;
   }
   .projects__block_link {
     margin-top: 35px;
@@ -768,6 +965,7 @@
   .communication span {
     font: 35px futurabook_bold, sans-serif;
     margin: 0 auto 65px;
+    width: 51%;
   }
   .piar span {
     font: 14px futurabook, sans-serif;
@@ -872,6 +1070,7 @@
   .gradient_text {
     margin-top: 120px;
     font: 225px futurabook_bold, sans-serif;
+    width: 60%;
   }
   .statistics__block {
     width: 33%;
@@ -882,6 +1081,7 @@
   }
   .statistic__block_description span {
     font: 35px futurabook, sans-serif;
+    width: 50%;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -908,9 +1108,11 @@
   }
   .projects__block_title {
     margin-top: 120px;
+    width: 78%;
   }
   .projects__block_description {
     margin-top: 80px;
+    width: 80%;
   }
   .projects__block_link {
     margin-top: 70px;
@@ -931,6 +1133,7 @@
   .communication span {
     font: 81px futurabook_bold, sans-serif;
     margin: 0 auto 105px;
+    width: 64%;
   }
   .piar span {
     font: 32px futurabook, sans-serif;
@@ -1080,6 +1283,7 @@
   .gradient_text {
     margin-top: 160px;
     font: 210px futurabook_bold, sans-serif;
+    width: 43%;
   }
   .statistics__block {
     width: 33%;
@@ -1093,6 +1297,7 @@
   }
   .statistic__block_description span {
     font: 30px futurabook, sans-serif;
+    width: 39%;
   }
   .partners__wrap {
     padding: 40px 0;
@@ -1119,6 +1324,7 @@
   }
   .projects__block_title {
     margin-top: 150px;
+    width: 62%;
   }
   .projects__block_description {
     margin-top: 105px;

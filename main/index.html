@@ -12,20 +12,20 @@
 </head>
 
 <body>
-	<header>
-	  <div class="header__navbar">
-		<div class="header__navbar_logo"></div>
-		<div class="header__navbar_copy header-futura">
-		  <p>&copy 2018 «ДрайвМедиа»</p>
-		</div>
-		<div class="header__navbar_menu">
-		  <div><a href="#">Проекты</a></div>
-		  <div><a href="#">Процесс и команда</a></div>
-		  <div><a href="#">Пресс-центр</a></div>
-		  <div><a href="#">О компании</a></div>
-		</div>
-	  </div>
-	</header>
+  <header>
+    <div class="header__navbar">
+      <div class="header__navbar_logo"></div>
+      <div class="header__navbar_copy header-futura">
+        <p data-en="«DriveMedia»" data-ru="«ДрайвМедиа»">&copy 2018 «ДрайвМедиа»</p>
+      </div>
+      <div class="header__navbar_menu">
+        <div class="active"><a href="#" data-en="Projects" data-ru="Проекты">Проекты</a></div>
+        <div><a href="#" data-en="Process and team" data-ru="Процесс и команда">Процесс и команда</a></div>
+        <div><a href="#" data-en="Press-center" data-ru="Пресс-центр">Пресс-центр</a></div>
+        <div><a href="#" data-en="About company" data-ru="О компании">О компании</a></div>
+      </div>
+    </div>
+  </header>
   <div class="info__wrap">
     <section>
       <div class="contact">
@@ -37,20 +37,22 @@
         </div>
         <div class="contact__consultation">
           <form>
-            <input type="text" class="contact__consultation_input" placeholder="Ваше имя и фамилия" required>
-            <input type="text" class="contact__consultation_input contact__consultation_indent" placeholder="Ваш e-mail" required>
-            <button type="button" name="button" class="contact__consultation_button">Получить консультацию</button>
+            <input type="text" id="changeFirst" class="contact__consultation_input" placeholder="Ваше имя и фамилия" required>
+            <input type="text" id="changeSecond" class="contact__consultation_input contact__consultation_indent" placeholder="Ваш e-mail" required>
+            <button type="button" name="button" class="contact__consultation_button" data-en="Get a consultation" data-ru="Получить консультацию">Получить консультацию</button>
           </form>
         </div>
       </div>
-      <div class="gradient_text">свяжись<br> с нами</div>
+      <div class="gradient__wrap">
+        <div class="gradient_text" data-en="contact us" data-ru="Свяжись с нами">свяжись с нами</div>
+      </div>
       <div class="statistics__wrap">
         <div class="statistics__block">
           <div class="statistics__block_number">
             <span>8</span>
           </div>
           <div class="statistic__block_description">
-            <span>Лет работы<br> на рынке</span>
+            <span data-en="Years of work in the market" data-ru="Лет работы на рынке">Лет работы на рынке</span>
           </div>
         </div>
         <div class="statistics__block">
@@ -58,7 +60,7 @@
             <span>40+</span>
           </div>
           <div class="statistic__block_description">
-            <span>Законченных<br> проектов</span>
+            <span data-en="Completed projects" data-ru="Законченных проектов">Законченных проектов</span>
           </div>
         </div>
         <div class="statistics__block">
@@ -66,7 +68,7 @@
             <span>3</span>
           </div>
           <div class="statistic__block_description">
-            <span>Года подряд<br> лучший бренд</span>
+            <span data-en="Years in a row the best brand" data-ru="Года подряд лучший бренд">Года подряд лучший бренд</span>
           </div>
         </div>
       </div>
@@ -81,7 +83,7 @@
     <section>
       <div class="clients__wrap">
         <div class="clients">
-          <div class="gradient_text">клиенты</div>
+          <div class="gradient_text" data-en="clients" data-ru="клиенты">клиенты</div>
         </div>
       </div>
     </section>
@@ -97,7 +99,7 @@
                 <span>Виртуальная реальность</span>
               </div>
               <div class="projects__block_description">
-                <span>Продвижение компании-разработчика приложений<br /> и эксплуатанта шлема виртуальной реальности<br /> Oculus Rift в Беларуси.</span>
+                <span>Продвижение компании-разработчика приложений и эксплуатанта шлема виртуальной реальности Oculus Rift в Беларуси.</span>
               </div>
               <div class="projects__block_link">
                 <span><a href="">Посмотреть кейс</a></span>
@@ -107,10 +109,10 @@
           <div class="projects__block">
             <div class="projects__block_refueling-text">
               <div class="projects__block_title">
-                <span>Народный тест-драйв<br /> АЗС А-100</span>
+                <span>Народный тест-драйв АЗС А-100</span>
               </div>
               <div class="projects__block_description">
-                <span>Создание положительного имиджа компании<br />(коммуникативность, открытость, дружелюбие —<br /> демонстрируемые ключевые эмоции).</span>
+                <span>Создание положительного имиджа компании (коммуникативность, открытость, дружелюбие — демонстрируемые ключевые эмоции).</span>
               </div>
               <div class="projects__block_link">
                 <span><a href="">Посмотреть кейс</a></span>
@@ -121,7 +123,7 @@
             </div>
           </div>
           <div class="projects__title">
-            <div class="gradient_text">проекты</div>
+            <div class="gradient_text" data-en="projects" data-ru="проекты">проекты</div>
           </div>
         </div>
       </div>
@@ -130,50 +132,54 @@
       <div class="offering__wrap">
         <div class="offering">
           <div class="offering__block">
-            <span>PR-кампании</span>
+            <span data-en="PR-campaign" data-ru="PR-кампании">PR-кампании</span>
           </div>
           <div class="offering__block">
-            <span>Event-мероприятия</span>
+            <span data-en="Event-events" data-ru="Event-мероприятия">Event-мероприятия</span>
           </div>
           <div class="offering__block">
-            <span>Антикризисный PR</span>
+            <span data-en="Anti-crisis PR" data-ru="Антикризисный PR">Антикризисный PR</span>
           </div>
           <div class="offering__block">
-            <span>Коммуникационные стратегии</span>
+            <span data-en="
+Communication strategies" data-ru="Коммуникационные стратегии">Коммуникационные стратегии</span>
           </div>
         </div>
       </div>
       <div class="bests">
-        <span>В чем мы хороши</span>
+        <span data-en="What we are good at" data-ru="В чем мы хороши">В чем мы хороши</span>
       </div>
       <div class="communication">
-        <span>Мы — коммуникационное<br /> агентство</span>
+        <span data-en="
+We are a communication agency" data-ru="Мы — коммуникационное агентство">Мы — коммуникационное агентство</span>
       </div>
       <div class="piar">
-        <span>Продвигаем бренды, продукты и услуги и особенно хороши<br /> в антикризисном пиаре</span>
+        <span data-en="We promote brands, products and services and are especially good at anti-crisis PR" data-ru="Продвигаем бренды, продукты и услуги и особенно хороши в антикризисном пиаре">
+        Продвигаем бренды, продукты и услуги и особенно хороши в антикризисном пиаре
+      </span>
       </div>
       <div class="contact__consultation_bottom">
         <form>
-          <input type="text" class="contact__consultation_bottom-input" placeholder="Ваше имя и фамилия" required>
-          <input type="text" class="contact__consultation_bottom-input contact__consultation_bottom-indent" placeholder="Ваш e-mail" required>
-          <button type="button" name="button" class="contact__consultation_bottom-button">Получить консультацию</button>
+          <input type="text" id="changeFirst" class="contact__consultation_bottom-input" placeholder="Ваше имя и фамилия" required>
+          <input type="text" id="changeSecond" class="contact__consultation_bottom-input contact__consultation_bottom-indent" placeholder="Ваш e-mail" required>
+          <button type="button" name="button" class="contact__consultation_bottom-button" data-en="Get a consultation" data-ru="Получить консультацию">Получить консультацию</button>
         </form>
         <div class="anim">
           <img src="img/rocket.png" alt="">
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="footer">
       <div class="footer__navbar">
         <div class="footer__navbar_logo"></div>
         <div class="footer__navbar_menu">
-          <div class="active"><a href="#">Проекты</a></div>
-          <div><a href="#">Процесс и команда</a></div>
-          <div><a href="#">Пресс-центр</a></div>
-          <div><a href="#">О компании</a></div>
+          <div class="active"><a href="#" data-en="Projects" data-ru="Проекты">Проекты</a></div>
+          <div><a href="#" data-en="Process and team" data-ru="Процесс и команда">Процесс и команда</a></div>
+          <div><a href="#" data-en="Press-center" data-ru="Пресс-центр">Пресс-центр</a></div>
+          <div><a href="#" data-en="About company" data-ru="О компании">О компании</a></div>
         </div>
         <div class="footer__navbar_info">
-          <span class="footer__navbar_info-languages"><a href="" class="active">RU</a> <a href="">EN</a></span>
+          <span class="footer__navbar_info-languages"><a href="#footer" class="active ru">RU</a> <a href="#footer" class="en">EN</a></span>
           <span class="footer__navbar_info-phone">+365 29 654-01-44</span>
           <span class="footer__navbar_info-mail">info@drivemedia.by</span>
         </div>

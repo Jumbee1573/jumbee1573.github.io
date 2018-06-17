@@ -193,7 +193,7 @@ body {
 }
 
 .gradient_text {
-  margin-top: 140px;
+  margin: 140px auto 0;
   text-align: center;
   text-transform: uppercase;
   font: 140px futurabook_bold, sans-serif;
@@ -202,7 +202,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #a130a1;
-  width: 100%;
+  width: 50%;
 }
 
 .statistics__wrap {
@@ -229,6 +229,9 @@ body {
 
 .statistic__block_description span {
   font: 16px futurabook, sans-serif;
+  width: 32%;
+  display: block;
+  margin: auto;
 }
 
 .partners__wrap {
@@ -257,7 +260,7 @@ body {
 }
 
 .clients .gradient_text {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .projects__wrap {
@@ -307,10 +310,12 @@ body {
 
 .projects__block_title {
   margin-top: 70px;
+  width: 73%;
 }
 
 .projects__block_description {
   margin-top: 60px;
+  width: 60%;
 }
 
 .projects__block_link {
@@ -334,7 +339,7 @@ body {
 }
 
 .projects__title .gradient_text {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .offering__wrap {
@@ -382,11 +387,13 @@ body {
 .communication span {
   font: 52px futurabook_bold, sans-serif;
   margin: 0 auto 50px;
+  width: 53%;
 }
 
 .piar span {
   font: 19px futurabook, sans-serif;
   margin: 0 auto 140px;
+  width: 37%;
 }
 
 .contact__consultation_bottom {
