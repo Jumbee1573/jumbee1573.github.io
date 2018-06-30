@@ -1,4 +1,12 @@
 $(document).ready(function() {
+
+  var curPos = $(document).scrollTop();
+  var height = $("body").height();
+  var scrollTime = 10;
+  $("body,html").animate({
+    "scrollTop": height
+  }, scrollTime);
+
   $('.en').on('click', function() {
     $('[data-en]').each(function() {
       $(this).text($(this).attr('data-en'));

@@ -511,10 +511,10 @@ body {
   position: relative;
   -webkit-animation-name: example;
   /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 100s;
+  -webkit-animation-duration: 150s;
   /* Safari 4.0 - 8.0 */
   animation-name: example;
-  animation-duration: 100s;
+  animation-duration: 150s;
   animation-fill-mode: forwards;
   -webkit-animation-delay: 1;
   -moz-animation-delay: 1;
@@ -524,7 +524,7 @@ body {
 
 .anim img {
   width: 200px;
-  height: 500px;
+  height: 420px;
 }
 
 /* Safari 4.0 - 8.0 */

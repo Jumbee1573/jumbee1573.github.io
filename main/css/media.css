@@ -1021,6 +1021,21 @@
   }
 }
 
+@media (max-width: 1290px) and (min-width: 1025px) {
+  .gradient_text {
+    width: 52%;
+  }
+  .anim {
+    -webkit-animation-duration: 160s;
+    /* Safari 4.0 - 8.0 */
+    animation-duration: 160s;
+  }
+  .anim img {
+    width: 150px;
+    height: 320px;
+  }
+}
+
 @media (max-width: 1920px) and (min-width: 1441px) {
   .header__navbar {
     padding: 105px 0;
@@ -1179,13 +1194,13 @@
     font: 28.7px futurabook, sans-serif;
   }
   .anim {
-    -webkit-animation-duration: 90s;
+    -webkit-animation-duration: 110s;
     /* Safari 4.0 - 8.0 */
-    animation-duration: 90s;
+    animation-duration: 110s;
   }
   .anim img {
     width: 300px;
-    height: 700px;
+    height: 650px;
   }
   @-webkit-keyframes example {
     0% {
@@ -1393,13 +1408,13 @@
     font: 30px futurabook, sans-serif;
   }
   .anim {
-    -webkit-animation-duration: 80s;
+    -webkit-animation-duration: 100s;
     /* Safari 4.0 - 8.0 */
-    animation-duration: 80s;
+    animation-duration: 100s;
   }
   .anim img {
-    width: 450px;
-    height: 900px;
+    width: 400px;
+    height: 780px;
   }
   @-webkit-keyframes example {
     0% {
