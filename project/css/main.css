@@ -107,7 +107,7 @@ body {
   -ms-flex-direction: row;
   flex-direction: row;
   align-items: center;
-  font: 18px futurabook, sans-serif;
+  font: 17px futurabook, sans-serif;
 }
 
 .header__navbar_menu a {
@@ -281,7 +281,7 @@ body {
   -ms-flex-direction: row;
   flex-direction: row;
   align-items: center;
-  font: 19px futurabook, sans-serif;
+  font: 18px futurabook, sans-serif;
 }
 
 .footer__navbar_menu a {
