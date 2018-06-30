@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   var curPos = $(document).scrollTop();
   var height = $("body").height();
-  var scrollTime = 10;
+  var scrollTime = 100;
   $("body,html").animate({
     "scrollTop": height
   }, scrollTime);
