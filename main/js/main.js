@@ -4,7 +4,7 @@ $(document).ready(function() {
   var scrollTime = 100;
   $("body,html").animate({
     "scrollTop": height
-  },  scrollTime);
+  }, scrollTime);
 
   $('.en').on('click', function() {
     $('[data-en]').each(function() {
