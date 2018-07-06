@@ -1,0 +1,537 @@
+@media (max-width: 320px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header__navbar_menu {
+    font: 4.5px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.4em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 20px;
+    font: 35px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 8px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 5px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 7px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 0;
+  }
+  .projects__block:first-child {
+    margin: 15px 0;
+  }
+  .projects__block:last-child {
+    margin-bottom: 25px;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+    width: 75%;
+  }
+  .projects__block_description {
+    margin-top: 0px;
+    width: 70%;
+  }
+  .projects__block_link {
+    margin-top: 0px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer-futura p {
+    font: 5px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 5px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header__navbar_menu {
+    font: 5.3px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.4em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 22px;
+    font: 42px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 10px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 6px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 8px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+    width: 70%;
+  }
+  .projects__block:first-child {
+    margin: 20px 0;
+  }
+  .projects__block:last-child {
+    margin-bottom: 30px;
+  }
+  .projects__block_description {
+    margin-top: 0px;
+    width: 70%;
+  }
+  .projects__block_link {
+    margin-top: 0px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer-futura p {
+    font: 7px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 6px futurabook, sans-serif;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header__navbar_menu {
+    font: 6px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    height: 35px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.4em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 8px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 25px;
+    font: 55px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 12px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 7px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 10px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__block:first-child {
+    margin: 30px 0;
+  }
+  .projects__block:last-child {
+    margin-bottom: 40px;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+    width: 77%;
+  }
+  .projects__block_description {
+    margin-top: 2px;
+    width: 77%;
+  }
+  .projects__block_link {
+    margin-top: 4px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer-futura p {
+    font: 8px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 7px futurabook, sans-serif;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+}
+
+@media (max-width: 601px) and (min-width: 426px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header__navbar_menu {
+    font: 8px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.6em;
+  }
+  .header__navbar_logo {
+    height: 35px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.6em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 8px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 25px;
+    font: 55px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 12px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 7px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 10px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__block:first-child {
+    margin: 30px 0;
+  }
+  .projects__block:last-child {
+    margin-bottom: 40px;
+  }
+  .projects__block_title {
+    margin-top: 20px;
+    width: 62%;
+  }
+  .projects__block_description {
+    margin-top: 2px;
+    width: 70%;
+  }
+  .projects__block_link {
+    margin-top: 4px;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer-futura p {
+    font: 8px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 8px futurabook, sans-serif;
+  }
+  .footer__navbar_menu a {
+    padding: 0.6em;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 602px) {
+  .header__navbar {
+    padding: 35px 0;
+  }
+  .header__navbar_menu {
+    font: 10px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.7em;
+  }
+  .header__navbar_logo {
+    height: 40px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.4em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 10px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 50px;
+    font: 75px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 22px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 11px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block:first-child {
+    margin: 50px 0;
+  }
+  .projects__block:last-child {
+    margin: 50px 0;
+  }
+  .projects__block_link span a {
+    font: 12px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__block_title {
+    margin-top: 30px;
+    width: 76%;
+  }
+  .projects__block_description {
+    margin-top: 15px;
+    width: 70%;
+  }
+  .projects__block_link {
+    margin-top: 20px;
+  }
+  .footer__navbar {
+    padding: 35px 0;
+  }
+  .footer-futura p {
+    font: 10px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 10px futurabook, sans-serif;
+  }
+  .footer__navbar_menu a {
+    padding: 0.7em;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .header__navbar {
+    padding: 40px 0;
+  }
+  .header__navbar_menu {
+    font: 13px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.7em;
+  }
+  .header__navbar_logo {
+    height: 50px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.4em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 13px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 55px;
+    font: 95px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 27px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 14px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 20px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__block:first-child {
+    margin: 80px 0;
+  }
+  .projects__block:last-child {
+    margin: 80px 0;
+  }
+  .projects__block_title {
+    margin-top: 40px;
+    width: 70%;
+  }
+  .projects__block_description {
+    margin-top: 40px;
+    width: 70%;
+  }
+  .projects__block_link {
+    margin-top: 35px;
+  }
+  .footer__navbar {
+    padding: 40px 0;
+  }
+  .footer-futura p {
+    font: 13px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 13px futurabook, sans-serif;
+  }
+  .footer__navbar_menu a {
+    padding: 0.7em;
+  }
+}
+
+@media (max-width: 1920px) and (min-width: 1441px) {
+  .header__navbar {
+    padding: 105px 0;
+  }
+  .header__navbar_menu {
+    font: 26px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.7em;
+  }
+  .header__navbar_logo {
+    height: 135px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.4em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 26px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 120px;
+    font: 210px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 55px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 31px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 40px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__block_title {
+    margin-top: 120px;
+    width: 78%;
+  }
+  .projects__block_description {
+    margin-top: 80px;
+    width: 77%;
+  }
+  .projects__block_link {
+    margin-top: 70px;
+  }
+  .footer__navbar {
+    padding: 105px 0;
+  }
+  .footer-futura p {
+    font: 26px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 26px futurabook, sans-serif;
+  }
+  .footer__navbar_menu a {
+    padding: 0.7em;
+  }
+}
+
+@media (max-width: 2600px) and (min-width: 1921px) {
+  .header__navbar {
+    padding: 105px 0;
+  }
+  .header__navbar_menu {
+    font: 31px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.7em;
+  }
+  .header__navbar_logo {
+    height: 130px;
+    margin-left: 0.7em;
+  }
+  .header__navbar_info {
+    margin-left: 0.4em;
+  }
+  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
+    font: 31px futurabook, sans-serif;
+  }
+  .gradient_text {
+    padding-top: 160px;
+    font: 210px futurabook_bold, sans-serif;
+  }
+  .projects__block_title span {
+    font: 65px futurabook_heavy, sans-serif;
+    color: #333;
+  }
+  .projects__block_description span {
+    font: 30px futurabook, sans-serif;
+    color: #4d4d4d;
+  }
+  .projects__block_link span a {
+    font: 35px futurabook_demi, sans-serif;
+    color: #333;
+    text-decoration: underline;
+  }
+  .projects__wrap {
+    padding: 40px 0;
+  }
+  .projects__block_title {
+    margin-top: 150px;
+    width: 70%;
+  }
+  .projects__block_description {
+    margin-top: 105px;
+    width: 70%;
+  }
+  .projects__block_link {
+    margin-top: 85px;
+  }
+  .footer__navbar {
+    padding: 105px 0;
+  }
+  .footer-futura p {
+    font: 31px futurabook, sans-serif;
+  }
+  .footer__navbar_menu {
+    font: 31px futurabook, sans-serif;
+  }
+  .footer__navbar_menu a {
+    padding: 0.7em;
+  }
+}
