@@ -1,0 +1,613 @@
+@media (max-width: 320px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header-futura p {
+    font: 5px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 5px futurabook, sans-serif !important;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 30px 0;
+  }
+  .statistics__block_number span {
+    font: 24px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 6px futurabook, sans-serif;
+    width: 49%;
+  }
+  .image__left {
+    margin-right: 13px;
+  }
+  .technology__title {
+    margin-right: 30px;
+    font: 13px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 6px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 30px;
+  }
+  .technology__wrap {
+    padding: 0px 0 33px;
+  }
+  .test__wrap {
+    padding: 45px 0;
+  }
+  .test__title {
+    font: 17px futurabook_heavy, sans-serif;
+    margin-bottom: 7px;
+  }
+  .test__subtitle {
+    font: 12px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 4.7px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header-futura p {
+    font: 7px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 6px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 25px;
+    margin-left: 0.8em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 40px 0;
+  }
+  .statistics__block_number span {
+    font: 35px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 6px futurabook, sans-serif;
+    width: 43%;
+  }
+  .image__left {
+    margin-right: 15px;
+  }
+  .technology__title {
+    margin-right: 30px;
+    font: 13px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 6px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 30px;
+  }
+  .technology__wrap {
+    padding: 0px 0 33px;
+  }
+  .test__wrap {
+    padding: 45px 0;
+  }
+  .test__title {
+    font: 17px futurabook_heavy, sans-serif;
+    margin-bottom: 7px;
+  }
+  .test__subtitle {
+    font: 12px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 5.2px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header-futura p {
+    font: 8px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 7px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 32px;
+    margin-left: 0.8em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 60px 0;
+  }
+  .statistics__block_number span {
+    font: 40px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 8px futurabook, sans-serif;
+    width: 50%;
+  }
+  .image__left {
+    margin-right: 20px;
+  }
+  .technology__title {
+    margin-right: 35px;
+    font: 15px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 6px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 40px;
+  }
+  .technology__wrap {
+    padding: 0px 0 40px;
+  }
+  .test__wrap {
+    padding: 45px 0;
+  }
+  .test__title {
+    font: 22px futurabook_heavy, sans-serif;
+    margin-bottom: 9px;
+  }
+  .test__subtitle {
+    font: 13px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 6.4px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 35px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 8px futurabook, sans-serif;
+  }
+}
+
+@media (max-width: 601px) and (min-width: 426px) {
+  .header__navbar {
+    padding: 25px 0;
+  }
+  .header-futura p {
+    font: 8px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 8px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.6em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 32px;
+    margin-left: 0.8em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 60px 0;
+  }
+  .statistics__block_number span {
+    font: 40px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 8px futurabook, sans-serif;
+    width: 35%;
+  }
+  .image__left {
+    margin-right: 20px;
+  }
+  .technology__title {
+    margin-right: 35px;
+    font: 15px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 6px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 40px;
+  }
+  .technology__wrap {
+    padding: 0px 0 40px;
+  }
+  .test__wrap {
+    padding: 45px 0;
+  }
+  .test__title {
+    font: 22px futurabook_heavy, sans-serif;
+    margin-bottom: 9px;
+  }
+  .test__subtitle {
+    font: 13px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 25px 0;
+  }
+  .footer__navbar_menu {
+    font: 8px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.6em;
+  }
+  .footer__navbar_logo {
+    height: 35px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 8px futurabook, sans-serif;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 602px) {
+  .header__navbar {
+    padding: 35px 0;
+  }
+  .header-futura p {
+    font: 12px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 12px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 55px;
+    margin-left: 2em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 70px 0;
+  }
+  .statistics__block_number span {
+    font: 65px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 11px futurabook, sans-serif;
+    width: 38%;
+  }
+  .image__left {
+    margin-right: 25px;
+  }
+  .technology__title {
+    margin-right: 50px;
+    font: 21px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 11px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 60px;
+  }
+  .technology__wrap {
+    padding: 0px 0 60px;
+  }
+  .test__wrap {
+    padding: 60px 0;
+  }
+  .test__title {
+    font: 34px futurabook_heavy, sans-serif;
+    margin-bottom: 15px;
+  }
+  .test__subtitle {
+    font: 16px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 35px 0;
+  }
+  .footer__navbar_menu {
+    font: 11px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 40px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 10px futurabook, sans-serif;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .header__navbar {
+    padding: 40px 0;
+  }
+  .header-futura p {
+    font: 13px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 13px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.7em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 60px;
+    margin-left: 2em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 110px 0;
+  }
+  .statistics__wrap {
+    padding: 0 22%;
+  }
+  .statistics__block_number span {
+    font: 65px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 13px futurabook, sans-serif;
+    width: 40%;
+  }
+  .image__left {
+    margin-right: 25px;
+  }
+  .technology__title {
+    margin-right: 50px;
+    font: 26px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 15px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 80px;
+  }
+  .technology__wrap {
+    padding: 0px 0 80px;
+  }
+  .test__wrap {
+    padding: 80px 0;
+  }
+  .test__title {
+    font: 45px futurabook_heavy, sans-serif;
+    margin-bottom: 18px;
+  }
+  .test__subtitle {
+    font: 20px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 40px 0;
+  }
+  .footer__navbar_menu {
+    font: 13px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.7em;
+  }
+  .footer__navbar_logo {
+    height: 60px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 13px futurabook, sans-serif;
+  }
+}
+
+@media (max-width: 1920px) and (min-width: 1441px) {
+  .header__navbar {
+    padding: 105px 0;
+  }
+  .header-futura p {
+    font: 31px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 31px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.4em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 135px;
+    margin-left: 2em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 180px 0;
+  }
+  .statistics__block_number span {
+    font: 160px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 35px futurabook, sans-serif;
+    width: 50%;
+  }
+  .image__left {
+    margin-right: 45px;
+  }
+  .technology__title {
+    margin-right: 115px;
+    font: 50px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 30px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 150px;
+  }
+  .technology__wrap {
+    padding: 0px 0 150px;
+  }
+  .test__wrap {
+    padding: 150px 0;
+  }
+  .test__title {
+    font: 90px futurabook_heavy, sans-serif;
+    margin-bottom: 25px;
+  }
+  .test__subtitle {
+    font: 50px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 105px 0;
+  }
+  .footer__navbar_menu {
+    font: 28.7px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 135px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 28.7px futurabook, sans-serif;
+  }
+}
+
+@media (max-width: 2600px) and (min-width: 1921px) {
+  .header__navbar {
+    padding: 105px 0;
+  }
+  .header-futura p {
+    font: 30px futurabook, sans-serif;
+  }
+  .header__navbar_menu {
+    font: 30px futurabook, sans-serif;
+  }
+  .header__navbar_menu a {
+    padding: 0.9em;
+  }
+  .header__navbar_logo {
+    width: 20%;
+    height: 130px;
+    margin-left: 2em;
+  }
+  .statistics__block {
+    width: 33%;
+    margin: 130px 0;
+  }
+  .statistics__wrap {
+    padding: 0px 23%
+  }
+  .statistics__block_number span {
+    font: 140px futurabook_light, sans-serif;
+  }
+  .statistic__block_description span {
+    font: 30px futurabook, sans-serif;
+    width: 39%;
+  }
+  .image__left {
+    margin-right: 45px;
+  }
+  .technology__title {
+    margin-right: 200px;
+    font: 65px futurabook_heavy, sans-serif;
+  }
+  .technology__description {
+    font: 35px futurabook_light, sans-serif;
+  }
+  .technology__inner-wrap {
+    margin-top: 170px;
+  }
+  .technology__wrap {
+    padding: 0px 0 170px;
+  }
+  .test__wrap {
+    padding: 170px 0;
+  }
+  .test__title {
+    font: 110px futurabook_heavy, sans-serif;
+    margin-bottom: 25px;
+  }
+  .test__subtitle {
+    font: 55px futurabook, sans-serif;
+  }
+  .footer__navbar {
+    padding: 105px 0;
+  }
+  .footer__navbar_menu {
+    font: 30px futurabook, sans-serif !important;
+  }
+  .footer__navbar_menu a {
+    padding: 0.9em;
+  }
+  .footer__navbar_logo {
+    height: 130px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 30px futurabook, sans-serif;
+  }
+}
