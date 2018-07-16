@@ -379,6 +379,10 @@ body {
   text-align: center;
 }
 
+.bests {
+  margin: 7% 20% 0;
+}
+
 .bests span {
   font: 21px futurabook, sans-serif;
   margin: 0 auto 120px;
