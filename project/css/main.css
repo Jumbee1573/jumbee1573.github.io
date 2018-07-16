@@ -50,7 +50,7 @@ body {
   font-family: futurabook_bold;
 }
 
-.header__navbar {
+.footer__navbar {
   padding: 80px 0;
   display: -webkit-flex;
   display: -ms-flex;
@@ -62,11 +62,11 @@ body {
   justify-content: center;
 }
 
-.header__navbar {
+.footer__navbar {
   background-color: #fff;
 }
 
-.header__navbar_logo {
+.footer__navbar_logo {
   background: url(../img/logo.png) no-repeat center center;
   -webkit-background-size: contain;
   background-size: contain;
@@ -75,7 +75,7 @@ body {
   margin-left: 2column
 }
 
-.header__navbar_info {
+.footer__navbar_info {
   width: 25%;
   display: -webkit-flex;
   display: -ms-flex;
@@ -87,15 +87,15 @@ body {
   justify-content: center;
 }
 
-.header__navbar_info-languages a {
+.footer__navbar_info-languages a {
   color: #000;
 }
 
-.header__navbar_info-phone, .header__navbar_info-mail {
+.footer__navbar_info-phone, .footer__navbar_info-mail {
   font: 18px futurabook, sans-serif;
 }
 
-.header__navbar_menu {
+.footer__navbar_menu {
   width: 50%;
   margin: 0;
   padding: 0;
@@ -110,7 +110,7 @@ body {
   font: 17px futurabook, sans-serif;
 }
 
-.header__navbar_menu a {
+.footer__navbar_menu a {
   color: #000;
   padding: 1em;
   display: block;
@@ -221,6 +221,11 @@ body {
   text-decoration: underline;
 }
 
+.projects__block_link-all {
+  text-align: center;
+  margin-top: 7%;
+}
+
 .projects__title .gradient_text {
   margin: 0;
 }
@@ -229,11 +234,11 @@ body {
   background: linear-gradient(#f9eef6, #fff);
 }
 
-.footer-futura p {
+.header-futura p {
   font: 19px futurabook, sans-serif;
 }
 
-.footer__navbar {
+.header__navbar {
   padding: 80px 0;
   display: -webkit-flex;
   display: -ms-flex;
@@ -245,11 +250,11 @@ body {
   justify-content: center;
 }
 
-.footer__navbar_wrap {
+.header__navbar_wrap {
   background-color: #fff;
 }
 
-.footer__navbar_logo {
+.header__navbar_logo {
   background: url(../img/logo.png) no-repeat center center;
   -webkit-background-size: contain;
   background-size: contain;
@@ -258,7 +263,7 @@ body {
   margin-left: 2em;
 }
 
-.footer__navbar_copy {
+.header__navbar_copy {
   width: 26%;
   display: -webkit-flex;
   display: -ms-flex;
@@ -269,7 +274,7 @@ body {
   align-items: center;
 }
 
-.footer__navbar_menu {
+.header__navbar_menu {
   width: 54%;
   margin: 0;
   padding: 0;
@@ -284,7 +289,7 @@ body {
   font: 18px futurabook, sans-serif;
 }
 
-.footer__navbar_menu a {
+.header__navbar_menu a {
   color: #000;
   padding: 1em;
   display: block;

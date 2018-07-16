@@ -2,21 +2,14 @@
   .header__navbar {
     padding: 25px 0;
   }
+  .header-futura p {
+    font: 5px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 4.5px futurabook, sans-serif !important;
+    font: 5px futurabook, sans-serif !important;
   }
   .header__navbar_menu a {
     padding: 0.4em;
-  }
-  .header__navbar_logo {
-    height: 25px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.4em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 5px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 20px;
@@ -58,14 +51,21 @@
   .footer__navbar {
     padding: 25px 0;
   }
-  .footer-futura p {
-    font: 5px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 5px futurabook, sans-serif !important;
+    font: 4.5px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
   }
 }
 
@@ -73,21 +73,14 @@
   .header__navbar {
     padding: 25px 0;
   }
+  .header-futura p {
+    font: 7px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 5.3px futurabook, sans-serif !important;
+    font: 6px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.4em;
-  }
-  .header__navbar_logo {
-    height: 25px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.4em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 5px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 22px;
@@ -126,14 +119,21 @@
   .footer__navbar {
     padding: 25px 0;
   }
-  .footer-futura p {
-    font: 7px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 6px futurabook, sans-serif;
+    font: 5.3px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 25px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 5px futurabook, sans-serif;
   }
 }
 
@@ -141,21 +141,14 @@
   .header__navbar {
     padding: 25px 0;
   }
+  .header-futura p {
+    font: 8px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 6px futurabook, sans-serif !important;
+    font: 7px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.4em;
-  }
-  .header__navbar_logo {
-    height: 35px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.4em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 8px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 25px;
@@ -194,14 +187,21 @@
   .footer__navbar {
     padding: 25px 0;
   }
-  .footer-futura p {
-    font: 8px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 7px futurabook, sans-serif;
+    font: 6px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.4em;
+  }
+  .footer__navbar_logo {
+    height: 35px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 8px futurabook, sans-serif;
   }
 }
 
@@ -209,21 +209,14 @@
   .header__navbar {
     padding: 25px 0;
   }
+  .header-futura p {
+    font: 8px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 8px futurabook, sans-serif !important;
+    font: 8px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.6em;
-  }
-  .header__navbar_logo {
-    height: 35px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.6em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 8px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 25px;
@@ -262,14 +255,21 @@
   .footer__navbar {
     padding: 25px 0;
   }
-  .footer-futura p {
-    font: 8px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 8px futurabook, sans-serif;
+    font: 8px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.6em;
+  }
+  .footer__navbar_logo {
+    height: 35px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.6em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 8px futurabook, sans-serif;
   }
 }
 
@@ -277,21 +277,14 @@
   .header__navbar {
     padding: 35px 0;
   }
+  .header-futura p {
+    font: 10px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 10px futurabook, sans-serif !important;
+    font: 10px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.7em;
-  }
-  .header__navbar_logo {
-    height: 40px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.4em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 10px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 50px;
@@ -330,14 +323,21 @@
   .footer__navbar {
     padding: 35px 0;
   }
-  .footer-futura p {
-    font: 10px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 10px futurabook, sans-serif;
+    font: 10px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.7em;
+  }
+  .footer__navbar_logo {
+    height: 40px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 10px futurabook, sans-serif;
   }
 }
 
@@ -345,21 +345,14 @@
   .header__navbar {
     padding: 40px 0;
   }
+  .header-futura p {
+    font: 13px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 13px futurabook, sans-serif !important;
+    font: 13px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.7em;
-  }
-  .header__navbar_logo {
-    height: 50px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.4em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 13px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 55px;
@@ -398,14 +391,21 @@
   .footer__navbar {
     padding: 40px 0;
   }
-  .footer-futura p {
-    font: 13px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 13px futurabook, sans-serif;
+    font: 13px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.7em;
+  }
+  .footer__navbar_logo {
+    height: 50px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 13px futurabook, sans-serif;
   }
 }
 
@@ -413,21 +413,14 @@
   .header__navbar {
     padding: 105px 0;
   }
+  .header-futura p {
+    font: 26px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 26px futurabook, sans-serif !important;
+    font: 26px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.7em;
-  }
-  .header__navbar_logo {
-    height: 135px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.4em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 26px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 120px;
@@ -460,14 +453,21 @@
   .footer__navbar {
     padding: 105px 0;
   }
-  .footer-futura p {
-    font: 26px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 26px futurabook, sans-serif;
+    font: 26px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.7em;
+  }
+  .footer__navbar_logo {
+    height: 135px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 26px futurabook, sans-serif;
   }
 }
 
@@ -475,21 +475,14 @@
   .header__navbar {
     padding: 105px 0;
   }
+  .header-futura p {
+    font: 31px futurabook, sans-serif;
+  }
   .header__navbar_menu {
-    font: 31px futurabook, sans-serif !important;
+    font: 31px futurabook, sans-serif;
   }
   .header__navbar_menu a {
     padding: 0.7em;
-  }
-  .header__navbar_logo {
-    height: 130px;
-    margin-left: 0.7em;
-  }
-  .header__navbar_info {
-    margin-left: 0.4em;
-  }
-  .header__navbar_info-phone, .header__navbar_info-languages, .header__navbar_info-mail {
-    font: 31px futurabook, sans-serif;
   }
   .gradient_text {
     padding-top: 160px;
@@ -525,13 +518,20 @@
   .footer__navbar {
     padding: 105px 0;
   }
-  .footer-futura p {
-    font: 31px futurabook, sans-serif;
-  }
   .footer__navbar_menu {
-    font: 31px futurabook, sans-serif;
+    font: 31px futurabook, sans-serif !important;
   }
   .footer__navbar_menu a {
     padding: 0.7em;
+  }
+  .footer__navbar_logo {
+    height: 130px;
+    margin-left: 0.7em;
+  }
+  .footer__navbar_info {
+    margin-left: 0.4em;
+  }
+  .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
+    font: 31px futurabook, sans-serif;
   }
 }
