@@ -380,7 +380,7 @@ body {
 }
 
 .bests {
-  margin: 7% 20% 0;
+  margin: 0% 20% 0;
 }
 
 .bests span {
@@ -394,7 +394,7 @@ body {
 
 .communication span {
   font: 52px futurabook_bold, sans-serif;
-  margin: 5% auto;
+  margin: 8% auto;
   width: 53%;
 }
 
