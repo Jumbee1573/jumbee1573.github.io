@@ -34,6 +34,20 @@ $(document).ready(function() {
       $(this).attr("placeholder", "Ваш e-mail");
     });
   });
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop()>100) {
+      $(".footer").removeClass("none");
+      console.log('hi');
+      
+    }
+    else{
+      console.log('ho');
+      $(".footer").addClass("none");
+      
+    };
+  });
+
 });
 
 

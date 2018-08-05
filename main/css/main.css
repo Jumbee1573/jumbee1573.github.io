@@ -388,9 +388,13 @@ body {
   margin: 0 auto 120px;
 }
 
+.bests p {
+  margin: 2% auto;
+}
+
 .communication span {
   font: 52px futurabook_bold, sans-serif;
-  margin: 0 auto 50px;
+  margin: 5% auto;
   width: 53%;
 }
 
@@ -401,7 +405,7 @@ body {
 }
 
 .contact__consultation_bottom {
-  padding-bottom: 140px;
+  padding-bottom: 30%;
 }
 
 .contact__consultation_bottom form {
@@ -440,6 +444,17 @@ body {
   padding: 17px;
   width: 365px;
   cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .footer__navbar {
