@@ -67,6 +67,7 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 5px futurabook, sans-serif;
   }
+  
 }
 
 @media (max-width: 375px) and (min-width: 321px) {

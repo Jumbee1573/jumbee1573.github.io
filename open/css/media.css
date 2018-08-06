@@ -72,6 +72,9 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 5px futurabook, sans-serif;
   }
+  .border {
+    margin: 0 6% 0 6%;
+  }
 }
 
 @media (max-width: 375px) and (min-width: 321px) {
@@ -148,6 +151,9 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 5px futurabook, sans-serif;
   }
+  .border {
+    margin: 0 4% 0 6%;
+  } 
 }
 
 @media (max-width: 425px) and (min-width: 376px) {
@@ -224,6 +230,9 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 8px futurabook, sans-serif;
   }
+  .border {
+    margin: 0 3% 0 4%;
+  } 
 }
 
 @media (max-width: 601px) and (min-width: 426px) {
@@ -376,6 +385,9 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 10px futurabook, sans-serif;
   }
+  .border {
+    margin: 0 4% 0 6%;
+  } 
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
@@ -455,6 +467,9 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 13px futurabook, sans-serif;
   }
+  .border {
+    margin: 0 10% 0 6%;
+  } 
 }
 
 @media (max-width: 1920px) and (min-width: 1441px) {
@@ -531,6 +546,9 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 28.7px futurabook, sans-serif;
   }
+  .border {
+    margin: 0 3% 0 4%;
+  } 
 }
 
 @media (max-width: 2600px) and (min-width: 1921px) {
@@ -610,4 +628,7 @@
   .footer__navbar_info-phone, .footer__navbar_info-languages, .footer__navbar_info-mail {
     font: 30px futurabook, sans-serif;
   }
+  .border {
+    margin: 0 13% 0 5%;
+  } 
 }
