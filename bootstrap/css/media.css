@@ -1,0 +1,100 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+  .sell_descr {
+    text-align: center;
+  }
+  .sell_right .button {
+    max-width: 250px;
+    margin: 15px auto;
+    float: none;
+    text-align: center;
+  }
+  .main_menu ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #3797bf;
+    z-index: 11;
+  }
+  .main_menu ul li {
+    display: block;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .top_links {
+    display: none;
+    background-color: #585d61;
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 15px;
+    padding: 15px;
+    width: 100%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 340px) {
+  .top_contacts {
+  	font-size: 28px;
+  	padding: 0 10px;
+  	line-height: 53px;
+  }
+}
+@media only screen and (max-width : 302px) {
+  .top_contacts {
+  	font-size: 26px;
+  	padding: 0 10px;
+  	line-height: 53px;
+  }
+}
+@media only screen and (max-width : 295px) {
+  .top_contacts {
+  	font-size: 24px;
+  	padding: 0 10px;
+  	line-height: 53px;
+  }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .top_links {
+    display: inline-block!important;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .main_menu ul {
+    display: block!important;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
