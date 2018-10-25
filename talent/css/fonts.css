@@ -1,0 +1,9 @@
+@font-face {
+	font-family: BigJohn;
+	src: url("../fonts/bigJohn.otf")format("opentype");
+}
+
+@font-face {
+	font-family: "AmbleBold";
+	src: url("../fonts/Amble-Bold.ttf") format("truetype");
+}
