@@ -1,0 +1,29 @@
+@font-face {
+    font-family: RobotoCondensed-LightItalic;
+    src: url("/libs/roboto/RobotoCondensed-LightItalic.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url("/libs/roboto/RobotoCondensed-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RobotoCondensed-Bold;
+    src: url("/libs/roboto/RobotoCondensed-Bold.ttf");
+    font-weight: 300;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family: RobotoCondensed-Regular;
+    src: url("/libs/roboto/RobotoCondensed-Regular.ttf");
+    font-weight: 300;
+    font-style: normal;    
+}
+
+
