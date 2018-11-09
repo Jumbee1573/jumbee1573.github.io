@@ -1,0 +1,88 @@
+.howwework {
+	background-color: white;
+	width: 1350px;
+	height: 790px;
+	z-index: 1;
+}
+
+.hww_text {
+list-style:none;
+width: 1350px;
+}
+
+.hww_text li{
+display: inline-block;
+}
+
+.hww_text_sp {
+  list-style: none;
+  margin-top: 0px;
+  font-family: KennyaCoffee;
+  font-size: 104px;
+  overflow: hidden;
+  text-align: center;
+  margin-right:25px;
+  color: red;
+  word-spacing: -10px;
+  
+}
+
+.WE {
+text-decoration: underline;
+font-size: 88;
+transform: translateY(-12%);
+color: #3f3b48;
+}
+
+@font-face { font-family: Montserrat-Bold; src: url(Monserrat_Bold.ttf);}
+
+.b {
+    top: 1730px;
+    display: table;
+    width: 70%;
+    table-layout: fixed;
+    position: absolute;
+    left: 200px;
+}
+.b-item {
+  display: table-cell;
+  vertical-align: top;
+  padding: 15px;
+  position: relative;
+}
+
+.b-item-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Montserrat-Bold;
+  word-spacing: 10px;
+}
+
+.b-item-text { 
+  font-family: Arial; 
+  font-size: 12px;
+  line-height: 1.5; 
+  margin-top: 30px;
+}
+
+.people {position:absolute; width: 1350px;}
+.keks {display: inline; font-size: 30px;}
+
+
+input {
+	color: white;
+    top: 80px;
+	outline: none;
+    border-radius: 7px;
+	font-family: Montserrat-Bold;
+    font-size: 16px;
+    height: 40px;
+    width: 200;
+    display: block;
+    position: relative;
+    border: 1px solid red;
+    background: red;
+    margin: 0px auto;
+    font-weight: 700;
+}

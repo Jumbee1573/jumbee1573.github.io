@@ -1,0 +1,71 @@
+@media (max-width: 1440px) and (min-width: 1201px) {
+.navbar-logo {display: inline-block; margin-left: 200px; margin-top: 20px;}
+.navbar-logo-text {display: inline-block; margin-left: 10px; font-size:42px;  transform: translateY(-30%); }
+.menu-main {
+  list-style: none;
+  padding: 0;
+  float: right;
+  margin-right: 85px;
+}
+.text-top {
+list-style:none;
+width: 1350px;
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 50px;
+  padding-left: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  right: 125px;
+}
+.text-main {
+  list-style: none;
+  margin-top: 0px;
+  font-size: 56px;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 30px;
+}
+.THINK {
+	transform: translateY(-220%);
+	display: inline-block; 
+	font-size: 36px; 	
+	 position: absolute;
+	 left: 440px;
+}
+.THE {  position: relative;}
+.CREATIVE {font-size: 122px;}
+.text-main li {display: inline-block; margin-top: -130px;}
+.intro {position:absolute; width: 1350px; top: 220px; z-index: -1;}
+header{height: 620px;}
+body {
+	margin: 0px;
+	width: 1350px;	
+} 
+.convert {
+	position: relative;
+	padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+	right: 100px;
+    border: 2px solid black;
+}
+}
+@media (max-width: 1200px) and (min-width: 991px) {
+   
+}
+@media (max-width: 991px) and (min-width: 768px) {
+   
+}
+@media (max-width: 768px) and (min-width: 425px) {
+   
+}
+@media (max-width: 424px) and (min-width: 375px) {
+    
+}
+@media (max-width: 374px) and (min-width: 320px) {
+    
+}

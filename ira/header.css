@@ -1,0 +1,82 @@
+@font-face { font-family: Montserrat-Bold; src: url(Monserrat_Bold.ttf);}
+@import url('https://www.fonts-online.ru/font/Mistral');
+@font-face { font-family: KennyaCoffee; src: url(kenyan_coffee_bd.ttf);}
+@font-face { font-family: Pacifico; src: url(PACIFICO.ttf);}
+
+.navbar-logo {display: inline-block; margin-left: 200px; margin-top: 20px;}
+
+.navbar-logo-text {display: inline-block; font-family: 'Mistral'; margin-left: 10px; font-size:42px;  transform: translateY(-30%); }
+
+.menu-main {
+  list-style: none;
+  padding: 0;
+  float: right;
+  margin-right: 85px;
+}
+
+.text-top {
+list-style:none;
+width: 1350px;
+}
+
+.menu-main li {display: inline-block; }
+
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 50px;
+  padding-left: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: Monserrat-Bold, sans-serif;
+  font-weight: bold;
+  color: #999999;
+  right: 125px;
+}
+
+.menu-main a:hover {opacity: 1; color: #303941;}
+
+.text-main {
+  list-style: none;
+  margin-top: 0px;
+  font-family: KennyaCoffee;
+  font-size: 56px;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 30px;
+  color: #3f3b48;
+}
+
+.THINK {
+	transform: translateY(-220%);
+	display: inline-block; 
+	font-family: Pacifico; 
+	font-size: 36px; 	
+	 position: absolute;
+	 left: 440px;
+}
+
+.THE {  position: relative;}
+
+.CREATIVE {font-size: 122px; color: red;}
+.text-main li {display: inline-block; margin-top: -130px;}
+
+.intro {position:absolute; width: 1350px; top: 220px; z-index: -1;}
+
+header{height: 620px;}
+
+body {
+	margin: 0px;
+	width: 1350px;
+	
+} 
+
+.convert {
+	position: relative;
+	padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+	right: 100px;
+    border: 2px solid black;
+}

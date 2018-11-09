@@ -1,0 +1,120 @@
+.olbp {
+	background-color: #3f3b48;
+	width: 1350px;
+	height: 790px;
+	z-index: 3;
+}
+
+.olbp_text {
+list-style:none;
+width: 1350px;
+height: 250px;
+}
+
+.olbp_text_sp {
+  list-style: none;
+  margin-top: 0px;
+  font-family: KennyaCoffee;
+  font-size: 56px;
+  overflow: hidden;
+  text-align: center;
+  margin-right:25px;
+  
+}
+
+.olbp_text_sp li {display: inline-block; margin-top: -40px;}
+
+.OURbp {   
+    transform: translateY(-200%);
+    display: inline-block;
+    font-family: Pacifico;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+	left: 515px;
+}
+
+.LATESTbp {  position: relative; color: white; font-size: 52px;}
+
+.BLOG {font-size: 104px; color: white;}
+
+
+.polaroid {
+ position: relative;
+ width: 340px;
+ height: 445px;
+ background-color: #595466;
+ display: inline-block;
+ box-shadow: 30px 20px 20px rgba(0,0,0,0.1);
+ margin-left: 50px;
+ left: 5%;
+}
+
+@font-face { font-family: Montserrat-Bold; src: url(Monserrat_Bold.ttf);}
+
+.author, .read_article {
+	font-family: Montserrat-Bold;
+	font-size: 10px;
+	color: white;
+	display: inline-block;
+}
+
+.read_article { margin-left: 5px; font-family: Arial;}
+
+.title {
+	font-family: Montserrat-Bold;
+	font-size: 14px;
+	color: white;
+}
+
+.article_text {
+	position: relative;
+	top: 210px;
+    left: 20px;
+    margin-right: 90px;
+}
+
+.inner {
+	position: absolute;
+	background-color: #3f3b48;
+	width: 300px;
+	height: 250px;
+	top: 20px;
+    left: 6%;
+}
+
+.right_next {display: inline-block; color: white; font-size: 15px;}
+
+.number {    
+    background: white;
+    color: #3f3b48;
+    border-radius: 10px 10px 0 0;
+    width: 72px;
+    height: 55px;
+    font-size: 40;
+    text-align: center;
+    font-family: Montserrat-Bold;
+}
+
+.month {
+	background: #3f3b48; 
+    border-radius: 0 0 10px 10px;
+    width: 72px;
+    height: 24px;  
+}
+
+.month p {
+	color: white;
+	font-size: 11px;
+    text-align: center;
+    font-family: Montserrat-Bold;
+	margin-top: 0;
+    position: relative;
+    top: 4px;
+}
+
+.date {
+	position: relative;
+	top: 214px;
+	left: 248px;
+}
