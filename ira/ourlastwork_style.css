@@ -1,13 +1,13 @@
 .ourlastwork {
 	background-image: url(ourlastwork_bg.png);
-	width: 1350px;
+width: 1350px;
 	height: 800px;
 	z-index: 1;
 }
 
 .olw_text {
 list-style:none;
-width: 1350px;
+width: 1350px; 
 }
 
 .olw_text_sp {
@@ -69,7 +69,7 @@ width: 1350px;
   color: white;
 }
 
-.bigtext {font-size: 12; font-family: Arial; color: gray; line-height: 1.5; margin-top: 30px; width: 308px}
+.bigtext {font-size: 12; font-family: Arial; color: gray; line-height: 1.5; margin-top: 30px; width: 308px;}
   
 .OUR {   
     transform: translateY(-200%);
@@ -85,6 +85,7 @@ width: 1350px;
     position: relative;
     top: -305px;
     left: 620px;
+	width: 100px;
 }
 
 .one, .four {
@@ -123,7 +124,7 @@ width: 1350px;
     border-top: 160px solid white;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    width: 35px;
+   width: 35px;
     transform: rotate(90deg);
     left: 760px;
     top: -100px;
@@ -144,7 +145,7 @@ width: 1350px;
 .next{
     position: absolute;
     transform: rotate(270deg);
-    width: 150px;
+   width: 150px;
     top: -110px;
     left: -57px;
     font-size: 12px;
@@ -197,7 +198,7 @@ width: 1350px;
     color: white;
     padding: 10px;
     border-radius: 20px 0 0 20px;
-    width: 70;
+ width: 70;
     height: 90;
    }
    
@@ -215,7 +216,7 @@ width: 1350px;
     color: white;
     padding: 10px;
     border-radius: 0 20px 20px 0;
-    width: 70;
+   width: 70;
     height: 90;
 }
 

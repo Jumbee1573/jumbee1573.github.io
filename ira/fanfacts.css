@@ -101,7 +101,7 @@ color: #3f3b48;
 .c1 {
 	top: 190px;
 	left: 355px;
-    width: 115px;
+  width: 115px;
     height: 115px;
 	line-height: 3;
 	font-size: 38px;
@@ -109,7 +109,7 @@ color: #3f3b48;
 .c2 {
 	top: 180px;
 	left: 245px;
-    width: 30px;
+   width: 30px;
     height: 30px;
 	line-height: 7;
 }
@@ -124,7 +124,7 @@ color: #3f3b48;
 .c4 {
 	top: -75px;
 	left: 680px;
-    width: 110px;
+   width: 110px;
     height: 110px;
 	line-height: 3;
 	font-size: 38px;
@@ -132,7 +132,7 @@ color: #3f3b48;
 .c5 {
 	top: -235px;
 	left: 620px;
-    width: 30px;
+    width: 30px; 
     height: 30px;
 	line-height: 7;
 }
@@ -147,7 +147,7 @@ color: #3f3b48;
 .c7 {
 	top: -325px;
 	left: 925px;
-    width: 195px;
+   width: 195px;
     height: 195px;
 	line-height: 2.5;
 	font-size: 72px;
