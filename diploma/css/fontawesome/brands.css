@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/webfonts/fa-brands-400.eot");
+
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
