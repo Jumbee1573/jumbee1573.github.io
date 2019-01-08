@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/media.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="tJS/main.js"></script> 
+	<link rel="icon" type="image/png" href="img/favicon.png" />
 	<title>GuruWeb</title>
 </head>
 <body>
@@ -17,12 +17,12 @@
 	<header id="main">
 		<div class="header__wrapper container">
 			<nav class="header__menu-mobile">
-				<button class="header__menu_button-mobile" onclick="menu()">
+				<button class="header__menu_button-mobile" onclick="menuu()">
 					<i class="fas fa-bars"></i>
 				</button>
 				<ul class="header__menu_wrapper-mobile" id="menu">
 					<li class="header__menu_close-mobile">
-						<button class="header__menu_button-mobile" onclick="menu()">
+						<button class="header__menu_button-mobile" onclick="menuu()">
 							<i class="fas fa-times"></i>
 						</button>
 					</li>
@@ -35,7 +35,7 @@
 					</li>
 					<li>
 						<ul class="header__menu_authorization-mobile">
-							<li onclick="menuClose()"><a class="header__menu_item-mobile" href="#">Студент</a></li>
+							<li onclick="menuClose()"><a class="header__menu_item-mobile" href="./students.html">Студент</a></li>
 							<li onclick="menuClose()">
 								<a class="header__menu_item-mobile header__menu_authorization_key-mobile" href="#">
 									<i class="fab fa-keycdn"></i>
@@ -60,7 +60,7 @@
 					</div>
 					<div class="header__menu_authorization">
 						<ul>
-							<li class="header__menu_item"><a href="#">Студент</a></li>
+							<li class="header__menu_item"><a href="./students.html">Студент</a></li>
 							<li class="header__menu_item ">
 								<a href="#" class="header__menu_authorization_key">
 									<i class="fab fa-keycdn"></i>
@@ -80,12 +80,17 @@
 	<main>
 		<div class="courses__wrapper container">
 			<span class="courses__main_start">
-				Давайте начнем!
+				<div>
+						<img  class="mrc__logo" src="img/mrk.svg" alt="mrc">
+				</div>
+				
+				<div class="mrc_desc">
+					БГУИР Филиал "Минский радиотехнический колледж"
+				</div>
 			</span>
 			<div class="courses__main_description">
 				<p class="courses__main_description-inner">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-					Lorem ipsum dolor sit amet.
+					Компьютерное средство обучения "Язык программирования JavaScript. Библиотека jQuery"
 				</p>
 			</div>
 			<section id="course">
@@ -99,7 +104,7 @@
 							<div class="course__segment_main_wrapper">
 								<span class="course__segment_scale">0%</span>
 								<span class="course__segment_title">
-									Об HTML, CSS и JavaScript
+									Знакомство с HTML, CSS, JavaScript
 								</span>
 								<p class="course__segment_description">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -116,7 +121,7 @@
 							<div class="course__segment_main_wrapper">
 								<span class="course__segment_scale">10%</span>
 								<span class="course__segment_title">
-									Подключаем, находим, готовим
+									Подключение
 								</span>
 								<p class="course__segment_description">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -258,7 +263,7 @@
 							<div class="course__segment_main_wrapper">
 								<span class="course__segment_scale">90%</span>
 								<span class="course__segment_title">
-									Пишем свой плагин
+									Плагин jQuery
 								</span>
 								<p class="course__segment_description">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -275,7 +280,7 @@
 							<div class="course__segment_main_wrapper">
 								<span class="course__segment_scale">100%</span>
 								<span class="course__segment_title">
-									Последняя глава
+									jQuery UI
 								</span>
 								<p class="course__segment_description">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -333,5 +338,8 @@
 			</span>
 		</div>
 	</footer>
+	
+	<script src="tJs/jquery.js"></script>
+	<script src="tJS/main.js"></script> 
 </body>
 </html>
