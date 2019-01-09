@@ -4611,6 +4611,7 @@ section {
 
     .courses__main_start {
       font: 40px 'Andale', sans-serif;
+      text-align: center;
     }
 
 .course__title {
