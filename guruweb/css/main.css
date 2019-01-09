@@ -4322,9 +4322,12 @@ button {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
-  -o-transition: background-color .3s,  opacity .5s, visibility .5s;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  -webkit-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  -o-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  transition: background-color .3s, 
+ opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000; }
@@ -4605,6 +4608,10 @@ section {
     font-size: 20px;
     width: 320px;
     line-height: 140%; }
+
+    .courses__main_start {
+      font: 40px 'Andale', sans-serif;
+    }
 
 .course__title {
   font: 40px 'Andale', sans-serif; }
