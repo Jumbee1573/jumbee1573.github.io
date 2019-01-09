@@ -9,10 +9,12 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="icon" type="image/png" href="img/favicon.png" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="apple-touch-icon-precomposed" href="img/favicon.png">
 	<title>GuruWeb</title>
 </head>
 <body>
+
+	<a class="top__button"><i class="fas fa-chevron-up"></i></a>
 		
 	<header id="main">
 		<div class="header__wrapper container">
@@ -79,21 +81,20 @@
 	</header>
 	<main>
 		<div class="courses__wrapper container">
-			<span class="courses__main_start">
-				<div>
-						<img  class="mrc__logo" src="img/mrk.svg" alt="mrc">
+			<span class="courses__main_mrc">
+				<div class="courses__main_mrc_logo-wrapper">
+					<img  class="courses__main_mrc_logo" src="img/mrс.svg" alt="mrc">
 				</div>
-				
-				<div class="mrc_desc">
+				<span class="courses__main_mrc_description">
 					БГУИР Филиал "Минский радиотехнический колледж"
-				</div>
+				</span>
 			</span>
 			<div class="courses__main_description">
 				<p class="courses__main_description-inner">
 					Компьютерное средство обучения "Язык программирования JavaScript. Библиотека jQuery"
 				</p>
 			</div>
-			<section id="course">
+			<section id="course" class="course">
 				<span class="course__title">
 					jQuery
 				</span>	
@@ -150,7 +151,7 @@
 					</div>
 				</div>
 				
-				<div class="course__wrapper">
+				<div class="course__wrapper fade">
 					<div class="course__segment">
 						<a href="#" class="flex">
 							<div class="top-line"></div>
@@ -162,7 +163,7 @@
 								<p class="course__segment_description">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
 									Ad nostrum, maiores laboriosam possimus ut est odit sunt 
-										praesentium consequuntur vero.
+									praesentium consequuntur vero.
 								</p>
 							</div>
 						</a>
@@ -203,7 +204,7 @@
 					</div>
 				</div>
 				   
-				<div class="course__wrapper">
+				<div class="course__wrapper fade">
 					<div class="course__segment">
 						<a href="#" class="flex">
 							<div class="top-line"></div>
@@ -256,7 +257,7 @@
 					</div>
 				</div>
 
-				<div class="course__wrapper">
+				<div class="course__wrapper fade">
 					<div class="course__segment">
 						<a href="#" class="flex">
 							<div class="top-line"></div>
@@ -290,6 +291,12 @@
 							</div>
 						</a>
 					</div>
+				</div>
+
+				<div class="course__button_wrapper">
+					<button class="course__button">
+						Показать еще...
+					</button>
 				</div>
 			</section>
 		</div>
