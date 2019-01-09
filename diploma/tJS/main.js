@@ -11,11 +11,10 @@ $(document).ready(function () {
   });
 });
 var isFlag = true;
+var menu = document.querySelectorAll('#menu')[0];
+var body = document.querySelectorAll('body')[0];
 
-var menu = function menu() {
-  var menu = document.querySelectorAll('#menu')[0];
-  var body = document.querySelectorAll('body')[0];
-
+var menuu = function menuu() {
   if (isFlag) {
     body.classList.add('hidden');
     menu.classList.add('menuUp');
