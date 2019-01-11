@@ -31,16 +31,29 @@
 					</li>
 					<li>
 						<ul class="header__menu_main-mobile">
-							<li onclick="menuClose()"><a class="header__menu_item-mobile" href="#main">Главная</a></li>
-							<li onclick="menuClose()"><a class="header__menu_item-mobile" href="#course">Курсы</a></li>
-							<li onclick="menuClose()"><a class="header__menu_item-mobile" href="#author">Об авторе</a></li>
+							<li onclick="menuClose()">
+								<a class="header__menu_item-mobile"
+								href="#main">Главная</a>
+							</li>
+							<li onclick="menuClose()">
+								<a class="header__menu_item-mobile" 
+								href="#course">Курсы</a>
+							</li>
+							<li onclick="menuClose()">
+								<a class="header__menu_item-mobile" 
+								href="#author">Об авторе</a>
+							</li>
 						</ul>
 					</li>
 					<li>
 						<ul class="header__menu_authorization-mobile">
-							<li onclick="menuClose()"><a class="header__menu_item-mobile" href="./students.html">Студент</a></li>
 							<li onclick="menuClose()">
-								<a class="header__menu_item-mobile header__menu_authorization_key-mobile" href="#">
+								<a class="header__menu_item-mobile" 
+								href="./students.html">Студент</a>
+							</li>
+							<li onclick="menuClose()">
+								<a class="header__menu_item-mobile 
+								header__menu_authorization_key-mobile" href="./teachers.html">
 									<i class="fab fa-keycdn"></i>
 								</a>
 							</li>
@@ -54,23 +67,31 @@
 				</a>
 			</nav>
 			<nav class="header__menu" id="header__menu">
-					<div class="header__menu_main">
-						<ul>
-							<li class="header__menu_item"><a href="#main">Главная</a></li>
-							<li class="header__menu_item"><a href="#course">Курсы</a></li>
-							<li class="header__menu_item"><a href="#author">Об авторе</a></li>
-						</ul>
-					</div>
-					<div class="header__menu_authorization">
-						<ul>
-							<li class="header__menu_item"><a href="./students.html">Студент</a></li>
-							<li class="header__menu_item ">
-								<a href="#" class="header__menu_authorization_key">
-									<i class="fab fa-keycdn"></i>
-								</a>
-							</li>
-						</ul>		
-					</div>
+				<div class="header__menu_main">
+					<ul>
+						<li class="header__menu_item">
+							<a href="#main">Главная</a>
+						</li>
+						<li class="header__menu_item">
+							<a href="#course">Курсы</a>
+						</li>
+						<li class="header__menu_item">
+							<a href="#author">Об авторе</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header__menu_authorization">
+					<ul>
+						<li class="header__menu_item">
+							<a href="./students.html">Студент</a>
+						</li>
+						<li class="header__menu_item ">
+							<a href="./teachers.html" class="header__menu_authorization_key">
+								<i class="fab fa-keycdn"></i>
+							</a>
+						</li>
+					</ul>		
+				</div>
 			</nav>
 			<a href="#main" class="header__logo_link">
 				<div class="header__logo-wrapper">
@@ -294,8 +315,8 @@
 					</div>
 				</div>
 
-				<div class="course__button_wrapper">
-					<button class="course__button">
+				<div class="course__button_wrapper white__button_wrapper">
+					<button class="course__button white__button">
 						Показать еще...
 					</button>
 				</div>
@@ -311,7 +332,7 @@
 					<img class="author__info_photo" src="img/panda.svg" alt="Панда">
 					<div class="author__info_inner">
 						<div class="author__info_inner-text">
-							Привет! Меня зовут Станислав и я автор этого сайта.
+							Привет! Меня зовут Станислав и я автор этого проекта.
 							Этот проект написан, чтобы помочь преподавателям Минского Радиотехнического
 							Колледжа проводить занятия по дисциплине "Программные средства создания 
 							интернет-приложений", где учащиеся постигают разработку
