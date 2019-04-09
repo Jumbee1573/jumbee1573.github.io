@@ -1,0 +1,194 @@
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/solid.scss";
+@import "./fontawesome/brands.scss";
+@import "./general.scss";
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #fafafa;
+    color: #000;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    &__animation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        &_atom {
+            width: 20%;
+            height: 20%;
+            animation: rotat infinite 3s linear;
+        }
+    }
+}
+
+.top__button_grey .top__button {
+    background-color: #3f3f3f;
+}
+
+.visible__false {
+    left: -300px!important;
+}
+
+.menu__button {
+    background-color: transparent;
+    transition: all .15s;
+    border: none;
+    font-size: 20px;
+    color: #767676;
+    padding: 15px;
+    display: flex;
+    &:hover {
+        color: #000;
+    }
+}
+
+.section__wrapper {
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 50px 15px 0;
+}
+
+.active {
+    color: #008cff!important;
+    text-decoration: none;
+}
+
+article {
+    padding-left: 300px;
+    line-height: 1.7;
+}
+
+.book {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    &__aside {
+        padding: 15px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        overflow-y: auto;
+        width: 300px;
+        background-color: #fafafa;
+        border-right: 1px solid rgba(0,0,0,.07);
+        transition: left .3s;
+    }
+    &__menu {
+        user-select: none;
+        display: flex;
+        flex-direction: row;
+        font: 15px 'Arial', sans-serif;
+        letter-spacing: .2px;
+        & ul {
+            padding: 0;
+            margin: 0;
+            display: block;
+            width: 100%;
+        }
+        &_wrapper li {
+            list-style: none;
+        }
+        &_item {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #364149;
+            &:hover {
+                text-decoration: underline;
+            }
+            &_title {
+                padding-left: 0;
+            }
+            &_border {
+                border-bottom: .8px solid #e3cece;
+            }
+        }
+    }
+    &__back {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 15px;
+        &_item {
+            display: flex;
+            align-items: center;
+            & a {
+                color: #767676;
+                font-size: 22px;
+                &:hover {
+                    color: #000;
+                    transition: all .15s;
+                }
+            }
+            & img {
+                width: 15%;
+                height: 15%;
+            }
+        }
+    }
+    &__item {
+        &_border {
+            border-bottom: .8px solid #e3cece;
+        }
+    }
+    &__mrc {
+        user-select: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        &_description {
+            font-family: 'Fagora';
+            box-shadow: 0px -3px 4px -2px rgb(173, 169, 169);
+            display: flex;
+            align-items: center;
+            background-color: #fafafa;
+            position: fixed;
+            bottom: 0;
+            width: 300px;
+            height: 90px;
+            text-align: center;
+        }
+    }
+}
+
+.article {
+    position: relative;
+    &__padding {
+        padding: 0;
+    }
+    &__animation {
+        transition: padding .3s;
+    }
+    &__header {
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.course {
+    &__subtitle {
+        font-size: 1.5em;
+        font-family: 'Fagora';
+        & a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
