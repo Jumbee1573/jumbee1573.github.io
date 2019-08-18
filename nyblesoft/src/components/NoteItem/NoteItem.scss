@@ -1,0 +1,40 @@
+.note {
+    &__list {
+        &_item {
+            font-family: 'Indie Flower', cursive;
+            font-style: italic;
+            color: #a9a933;
+            padding: 10px 15px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc;
+            &:first-child {
+                border-top: 1px solid #b38dff;
+            }
+            & i {
+                margin-right: 7px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:hover {
+                    color: #80802c;
+                    transition: all .3s;
+                }
+            }
+            &-input {
+                border: none;
+                font-family: 'Indie Flower', cursive;
+                font-style: italic;
+                color: #555528;
+                font-size: 20px;
+            }
+            &:hover {
+                background-color: #f1f1e2;
+                transition: all .4s;
+            }
+        }
+    }
+}

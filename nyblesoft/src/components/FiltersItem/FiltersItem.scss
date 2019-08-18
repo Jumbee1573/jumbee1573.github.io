@@ -1,0 +1,25 @@
+.filters {
+    &__list {
+        &_item {
+            font-family: 'Indie Flower', cursive;
+            font-style: italic;
+            color: #a9a933;
+            padding: 10px 15px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc;
+            &-text {
+                display: flex;
+                padding: 0 40% 0 0;
+            }
+            &:hover {
+                background-color: #ecefff;
+                transition: all .4s;
+            }
+        }
+    }
+}
