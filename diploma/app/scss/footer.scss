@@ -1,0 +1,18 @@
+footer {
+    background-color: #28292b;
+}
+.footer {
+    &__wrapper {
+        padding: 60px 0;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+    &__tagline_heart {
+        color: #d76699; 
+    }
+}
+  

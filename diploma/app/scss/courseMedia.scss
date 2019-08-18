@@ -1,0 +1,49 @@
+@media (min-width: 1201px) {
+
+}
+
+@media (max-width: 1200.98px) and (min-width: 1024px) {
+
+}
+
+@media (max-width: 1023.98px) and (min-width: 915px) {
+
+}
+
+@media (max-width: 914.98px) and (min-width: 768px) {
+
+}
+
+@media (max-width: 767.98px) and (min-width: 425px) {
+
+}
+
+@media (max-width: 424.98px) and (min-width: 375px) {
+
+}
+
+@media (max-width: 374.98px) and (min-width: 320px) {
+
+    article {
+        padding-left: calc(100% - 58px);
+    }
+    main {
+        overflow: hidden;
+    }
+
+    .book {
+        &__aside {
+            width: calc(100% - 60px);
+        }
+        &__mrc {
+            &_description {
+                width: calc(100% - 60px);
+            }
+        }
+    }
+
+}
+
+@media (max-width: 319.98px) {
+
+}
