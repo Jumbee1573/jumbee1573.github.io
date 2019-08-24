@@ -1,13 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import TextEditor from './containers/TextEditor/TextEditor';
+import TextEditor from "./containers/TextEditor/TextEditor";
 
-import './App.scss';
+import "./App.scss";
 
 function App() {
-  return (
-    <TextEditor />
-  );
+  return <TextEditor />;
 }
 
 export default App;

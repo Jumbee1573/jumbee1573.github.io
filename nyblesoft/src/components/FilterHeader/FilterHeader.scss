@@ -1,26 +1,26 @@
 .filter-header {
-    &__wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #ffeded;
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffeded;
+  }
+  &__title {
+    display: flex;
+    font-style: italic;
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    padding: 3px 15px;
+    box-sizing: border-box;
+  }
+  &__button {
+    padding: 0 15px;
+    font-family: "Indie Flower", cursive;
+    border: none;
+    background-color: #67c7ff;
+    &:hover {
+      background-color: #1eacff;
+      transition: all 0.4s;
     }
-    &__title {
-        display: flex;
-        font-style: italic;
-        font-size: 25px;
-        font-family: 'Indie Flower', cursive;
-        padding: 3px 15px;
-        box-sizing: border-box;
-    }
-    &__button {
-        padding: 0 15px;
-        font-family: 'Indie Flower', cursive;
-        border: none;
-        background-color: #67c7ff;
-        &:hover {
-            background-color: #1eacff;
-            transition: all .4s;
-        }
-    }
+  }
 }
